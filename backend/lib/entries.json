@@ -93,6 +93,230 @@
             "song": "My Ever Changing Moods (12\" version)",
             "release_date": 1984,
             "spotify_link": ""
+        },
+        {
+            "catalogue_num": 12,
+            "send_date": "Sat, 27 Apr 2019 17:13:58 +0000 (UTC)",
+            "artist": "Motörhead",
+            "song": "Stay Clean",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/0vcccE7VjUlGjOcXYiWXgn"
+        },
+        {
+            "catalogue_num": 13,
+            "send_date": "Sun, 28 Apr 2019 16:15:00 +0000 (UTC)",
+            "artist": "Simon Dupree & The Big Sound",
+            "song": "Day Time, Night Time",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/3kYIfkIPvXZuUsefJraCNS"
+        },
+        {
+            "catalogue_num": 14,
+            "send_date": "Mon, 29 Apr 2019 15:23:21 +0000 (UTC)",
+            "artist": "Stealers Wheel",
+            "song": "Star",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/7Htjqx40jNYmjhVAhbSGd4"
+        },
+        {
+            "catalogue_num": 15,
+            "send_date": "Tue, 30 Apr 2019 14:38:01 +0000 (UTC)",
+            "artist": "The Nervebreakers",
+            "song": "My Girlfriend Is A Rock",
+            "release_date": 1978,
+            "spotify_link": "https://open.spotify.com/track/25NfQcqkzvQwr8IwH8A4j6"
+        },
+        {
+            "catalogue_num": 16,
+            "send_date": "Wed, 1 May 2019 15:24:30 +0000 (UTC)",
+            "artist": "Brian Stevens",
+            "song": "Every Night She Glows",
+            "release_date": 1996,
+            "spotify_link": "https://open.spotify.com/track/2CTe5cF6fLKwShcYz0c4T6"
+        },
+        {
+            "catalogue_num": 17,
+            "send_date": "Thu, 2 May 2019 13:26:59 +0000 (UTC)",
+            "artist": "XTC",
+            "song": "Big Day",
+            "release_date": 1986,
+            "spotify_link": "https://open.spotify.com/track/0uyL8272RoVI3gmLPtoJR2"
+        },
+        {
+            "catalogue_num": 18,
+            "send_date": "Fri, 3 May 2019 14:24:45 +0000 (UTC)",
+            "artist": "The Chi-Lites",
+            "song": "Stoned Out Of My Mind",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/3fcoCYbJiqzSNSsNRfnLea"
+        },
+        {
+            "catalogue_num": 19,
+            "send_date": "Sat, 4 May 2019 14:40:31 +0000 (UTC)",
+            "artist": "Lou Christie",
+            "song": "She Sold Me Magic",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/1AZW7BLJQwXeHxwn1TNNx0"
+        },
+        {
+            "catalogue_num": 20,
+            "send_date": "Sun, 5 May 2019 14:50:34 +0000 (UTC)",
+            "artist": "Dennis Wilson & Rumbo",
+            "song": "Lady (Fallin' In Love)",
+            "release_date": 1970,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 21,
+            "send_date": "Mon, 6 May 2019 12:05:02 +0000 (UTC)",
+            "artist": "Breakfast Club",
+            "song": "Right On Track",
+            "release_date": 1987,
+            "spotify_link": "https://open.spotify.com/track/3UiuKZWtgXjeAfnfGqIeu0"
+        },
+        {
+            "catalogue_num": 22,
+            "send_date": "Tue, 7 May 2019 15:07:09 +0000 (UTC)",
+            "artist": "The Parasites",
+            "song": "Crazy",
+            "release_date": 1993,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 23,
+            "send_date": "Wed, 8 May 2019 13:38:00 +0000 (UTC)",
+            "artist": "Lindsey Buckingham",
+            "song": "Go Insane",
+            "release_date": 1984,
+            "spotify_link": "https://open.spotify.com/track/143sH2crBs4fUQyRr8pjUm"
+        },
+        {
+            "catalogue_num": 24,
+            "send_date": "Thu, 9 May 2019 13:47:42 +0000 (UTC)",
+            "artist": "Bee Gees",
+            "song": "Kitty Can",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/49RaM5bnlyIRWgyqkUGorE"
+        },
+        {
+            "catalogue_num": 25,
+            "send_date": "Fri, 10 May 2019 13:49:55 +0000 (UTC)",
+            "artist": "Magazine",
+            "song": "A Song From Under The Floorboards",
+            "release_date": 1980,
+            "spotify_link": "https://open.spotify.com/track/2vMdVp2b2lg1olrNttrGg8"
+        },
+        {
+            "catalogue_num": 26,
+            "send_date": "Sat, 11 May 2019 15:26:45 +0000 (UTC)",
+            "artist": "The Bats",
+            "song": "Claudine",
+            "release_date": 1990,
+            "spotify_link": "https://open.spotify.com/track/7oDEfDlu4DmFZdl0ELck9v"
+        },
+        {
+            "catalogue_num": 27,
+            "send_date": "Sun, 12 May 2019 08:10:42 -0500",
+            "artist": "Crazy Horse",
+            "song": "I Don't Want To Talk About It",
+            "release_date": 1971,
+            "spotify_link": "https://open.spotify.com/track/0myBFxr4evQ0HxjbaL5TOe"
+        },
+        {
+            "catalogue_num": 28,
+            "send_date": "Mon, 13 May 2019 08:18:16 -0500",
+            "artist": "Barbara Lewis",
+            "song": "Love Makes The World Go Round",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/1RbM0UssGaj1E1FqjZ1v8b"
+        },
+        {
+            "catalogue_num": 29,
+            "send_date": "Tue, 14 May 2019 07:24:31 -0500",
+            "artist": "Super Furry Animals",
+            "song": "Carbon Dating",
+            "release_date": 2008,
+            "spotify_link": "https://open.spotify.com/track/7zzjiy3OGZnPpxsIfLnzUQ"
+        },
+        {
+            "catalogue_num": 30,
+            "send_date": "Wed, 15 May 2019 11:03:30 -0500",
+            "artist": "Simple Minds",
+            "song": "Love Song",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/6zEf9xxlJpOgTgFgFz0Qos"
+        },
+        {
+            "catalogue_num": 31,
+            "send_date": "Thu, 16 May 2019 06:43:20 -0500",
+            "artist": "The Outcasts",
+            "song": "Loving You Sometimes",
+            "release_date": 1968,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 32,
+            "send_date": "Fri, 17 May 2019 08:33:14 -0500",
+            "artist": "The Rings (UK)",
+            "song": "I Wanna Be Free",
+            "release_date": 1977,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 33,
+            "send_date": "Fri, 18 May 2019 08:33:14 -0500",
+            "artist": "The Olivia Tremor Control",
+            "song": "Hideaway",
+            "release_date": 1999,
+            "spotify_link": "https://open.spotify.com/track/2tBMTRlUg99ifYxZAJWo4n"
+        },
+        {
+            "catalogue_num": 34,
+            "send_date": "Sun, 19 May 2019 16:20:11 +0000 (UTC)",
+            "artist": "Curt Boettcher",
+            "song": "Baby It's Real",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/5nhLoOvVQMGPjStuZYjLpQ"
+        },
+        {
+            "catalogue_num": 35,
+            "send_date": "Mon, 20 May 2019 14:38:13 +0000 (UTC)",
+            "artist": "Elvis Presley",
+            "song": "His Latest Flame (Marie's The Name)",
+            "release_date": 1961,
+            "spotify_link": "https://open.spotify.com/track/4qbLOU1T7xgTH87eUSkvJ1"
+        },
+        {
+            "catalogue_num": 36,
+            "send_date": "Tue, 21 May 2019 15:19:32 +0000 (UTC)",
+            "artist": "Mary Lou Lord",
+            "song": "I Figured You Out You Out (Original Mix feat. Elliott Smith)",
+            "release_date": 1997,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 37,
+            "send_date": "Wed, 22 May 2019 15:24:59 +0000 (UTC)",
+            "artist": "Dwight Twilley Band",
+            "song": "Looking For The Magic",
+            "release_date": 1977,
+            "spotify_link": "https://open.spotify.com/track/3kJXrEVUCdPQ3e4e5k9OHC"
+        },
+        {
+            "catalogue_num": 38,
+            "send_date": "Thu, 23 May 2019 14:25:07 +0000 (UTC)",
+            "artist": "The Toreros",
+            "song": "Come",
+            "release_date": 1966,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 39,
+            "send_date": "Fri, 24 May 2019 14:09:36 +0000 (UTC)",
+            "artist": "Yellow Magic Orchestra",
+            "song": "Behind The Mask",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/6fcvo9Gfgx5V4XfMbWtUOZ"
         }
     ]
 }

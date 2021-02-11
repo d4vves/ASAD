@@ -89,13 +89,13 @@ async function seedDb(auth) {
   const gmail = google.gmail({version: 'v1', auth});
 
   // nextCatalogueNum and date variables
-  let nextCatalogueNum = 12;
+  let nextCatalogueNum = 34;
 
-  let startDate = new Date('2019, 4, 26');
+  let startDate = new Date('2019, 5, 18');
   let [afterMonth, afterDate, afterYear] = startDate.toLocaleDateString("en-US").split("/");
   let afterSearchDate = `${afterMonth}/${afterDate}/${afterYear}`;
 
-  let targetDate = new Date('2019, 5, 1');
+  let targetDate = new Date('2019, 5, 28');
   let [beforeMonth, beforeDate, beforeYear] = targetDate.toLocaleDateString("en-US").split("/");
   let beforeSearchDate = `${beforeMonth}/${beforeDate}/${beforeYear}`;
   
@@ -142,31 +142,36 @@ async function seedDb(auth) {
           // get email body and replace ascii characters
           let emailBody = originEmail.data.snippet;
           let emailContent = decodeString(emailBody)
+          console.log('EMAIL CONTENT:')
+          console.log(emailContent)
 
           // get date header and grab send date
           let sendDateHeader = headers.filter(header => header.name === 'Date');
           let sendDate = sendDateHeader[0].value
 
           // grab artist name from email content
-          const artistNameRegex = /.+\s-\s/
-          let artistNameIdx = emailContent.match(artistNameRegex)[0]
-          let artistName = artistNameIdx.slice(0, -3)
+          let artistNameIdx = emailContent.split(' - ')
+          let artistName = artistNameIdx[0]
+          console.log('ARTIST: ', artistName)
 
           // grab song title from email content
           const songTitleRegex = /[^-]+\(\d{4}\)/
           let songTitleIdx = emailContent.match(songTitleRegex)[0]
           let songTitle = songTitleIdx.slice(1, -6).trim()
+          console.log('SONG: ', songTitle)
 
           // grab release date from email content
           const releaseDateRegex = /\(\d{4}\)/
           let releaseDateIdx = emailContent.match(releaseDateRegex)[0];
           let releaseDate = parseInt(releaseDateIdx.slice(1, 5))
+          console.log('RELEASE DATE: ', releaseDate)
 
           // form URL for Spotify search
           let artistSearch = encodeString(artistName);
           let songSearch = encodeString(songTitle);
           let searchUrl = `https://api.spotify.com/v1/search?q=${artistSearch}+${songSearch}&type=track`;
-          
+          console.log('SEARCH URL: ', searchUrl)
+
           // get bearer token, then spotify link
           let spotifyToken = await getSpotifyToken();
           let spotifyLink = await getSpotifyLink(searchUrl, spotifyToken);
@@ -180,6 +185,7 @@ async function seedDb(auth) {
             release_date: releaseDate,
             spotify_link: spotifyLink
           };
+          console.log('NEW ENTRY: ')
           console.log(newEntry);
 
           // push entry
@@ -195,19 +201,21 @@ async function seedDb(auth) {
           // increment start date to next day and increment catalogue num.
           startDate.setDate(startDate.getDate() + 1);
           [month, date, year] = startDate.toLocaleDateString("en-US").split("/");
-          searchDate = `${month}/${date}/${year}`;
-          nextCatalogueNum++;
+          afterSearchDate = `${month}/${date}/${year}`;
+          nextCatalogueNum += 1;
+
+          console.log('START DATE: ', startDate)
+          console.log('NEXT CATA NUM: ', nextCatalogueNum)
+
 
           if (startDate >= targetDate) {
             clearInterval(postEntryInterval);
           };
-
-          break;
         };
       };
     });
   };
   
   // determine interval at which to run this very ridiculous function
-  let postEntryInterval = setInterval(findEntry, 5000);
+  let postEntryInterval = setInterval(findEntry, 12000);
 };

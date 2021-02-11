@@ -1,8 +1,7 @@
 const axios = require('axios');
 
 const getSpotifyLink = async (url, token) => {
-    console.log(url)
-    console.log(token)
+    // console.log('TOKEN: ', token)
     let response;
     try {
         response = await axios.get(url, {
