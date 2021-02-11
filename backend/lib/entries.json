@@ -1,0 +1,98 @@
+{
+    "entries": [
+        {
+            "catalogue_num": 1,
+            "send_date": "Fri, 12 Apr 2019 14:26:00 +0000 (UTC)",
+            "artist": "Donovan",
+            "song": "Get Thy Bearings",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/6poYscuLQG8hvpxNnyeMUV",
+            "createdAt": "2021-02-04T03:48:23.572Z",
+            "updatedAt": "2021-02-04T03:48:23.572Z"
+        },
+        {
+            "catalogue_num": 2,
+            "send_date": "Wed, 17 Apr 2019 15:45:00 +0000 (UTC)",
+            "artist": "Wire",
+            "song": "Kidney Bingos (Original Mix)",
+            "release_date": 1988,
+            "spotify_link": "https://open.spotify.com/track/5eiWabuVVrQQ8HTJZV5pMJ",
+            "createdAt": "2021-02-04T03:48:23.572Z",
+            "updatedAt": "2021-02-04T03:48:23.572Z"
+        },
+        {
+            "catalogue_num": 3,
+            "send_date": "Thu, 18 Apr 2019 08:52:00 +0000 (UTC)",
+            "artist": "Rockin Ramrods",
+            "song": "Bright Lit Blue Skies",
+            "release_date": 1966,
+            "spotify_link": "https://open.spotify.com/track/1N5AfYG7UqkKfZYUQMa9mS",
+            "createdAt": "2021-02-04T03:48:23.572Z",
+            "updatedAt": "2021-02-04T03:48:23.572Z"
+        },
+        {
+            "catalogue_num": 4,
+            "send_date": "Fri, 19 Apr 2019 13:34:14 +0000 (UTC)",
+            "artist": "ABBA",
+            "song": "My Mama Said",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/4OOeJEyGBvTiLc4QWaaE94"
+        },
+        {
+            "catalogue_num": 5,
+            "send_date": "Sat, 20 Apr 2019 13:36:04 +0000 (UTC)",
+            "artist": "La Peste",
+            "song": "Better Off Dead",
+            "release_date": 1978,
+            "spotify_link": "https://open.spotify.com/track/3OZDtn8LDZErO16kfKguNo"
+        },
+        {
+            "catalogue_num": 6,
+            "send_date": "Sun, 21 Apr 2019 12:50:19 +0000 (UTC)",
+            "artist": "The Stone Roses",
+            "song": "I Am The Resurrection",
+            "release_date": 1989,
+            "spotify_link": "https://open.spotify.com/track/5ikdUUm6JbnEVnp35c7dvy"
+        },
+        {
+            "catalogue_num": 7,
+            "send_date": "Mon, 22 Apr 2019 16:09:07 +0000 (UTC)",
+            "artist": "GC Cameron",
+            "song": "No Matter Where",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/730ZiMDs9bHSJAYib9kmop"
+        },
+        {
+            "catalogue_num": 8,
+            "send_date": "Tue, 23 Apr 2019 17:21:45 +0000 (UTC)",
+            "artist": "Tears For Fears",
+            "song": "Watch Me Bleed",
+            "release_date": 1983,
+            "spotify_link": "https://open.spotify.com/track/1kChx0uGraDIIyOVtBVawU"
+        },
+        {
+            "catalogue_num": 9,
+            "send_date": "Wed, 24 Apr 2019 14:46:21 +0000 (UTC)",
+            "artist": "The Dirtbombs",
+            "song": "The Sharpest Claws",
+            "release_date": 2000,
+            "spotify_link": "https://open.spotify.com/track/4aOiY0m2XTrqov2RZ02Re3"
+        },
+        {
+            "catalogue_num": 10,
+            "send_date": "Thu, 25 Apr 2019 16:19:24 +0000 (UTC)",
+            "artist": "Hall & Oates",
+            "song": "I'm Just A Kid (Don't Make Me Feel Like A Man)",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/17SAYbj2TksOCbjqXcyFyA"
+        },
+        {
+            "catalogue_num": 11,
+            "send_date": "Fri, 26 Apr 2019 15:12:03 +0000 (UTC)",
+            "artist": "The Style Council",
+            "song": "My Ever Changing Moods (12\" version)",
+            "release_date": 1984,
+            "spotify_link": ""
+        }
+    ]
+}
