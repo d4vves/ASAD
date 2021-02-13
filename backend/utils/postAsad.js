@@ -11,7 +11,9 @@ require('dotenv').config();
 /* ----- HELPER FUNCTIONS -----*/
 
 const decodeString = require('./helpers/decodeString');
+const encodeString = require('./helpers/encodeString');
 const getEmailContent = require('./helpers/getEmailContent');
+const getSpotifyLink = require('./helpers/getSpotifyLink');
 const getSpotifyToken = require('./helpers/getSpotifyToken');
 
 /*----- GMAIL AUTH -----*/
@@ -21,10 +23,10 @@ const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
-const TOKEN_PATH = 'lib/token.json';
+const TOKEN_PATH = 'backend/lib/token.json';
 
 // Load client secrets from a local file.
-fs.readFile('credentials.json', (err, content) => {
+fs.readFile('backend/credentials.json', (err, content) => {
   if (err) return console.log('Error loading client secret file:', err);
   // Authorize a client with credentials, then call the Gmail API.
   authorize(JSON.parse(content), postAsad);
@@ -83,6 +85,7 @@ function getNewToken(oAuth2Client, callback) {
 /*----- POST FUNCTION -----*/
 
 async function postAsad(auth) {
+
     // gmail config
     const gmail = google.gmail({version: 'v1', auth});
 
@@ -119,49 +122,64 @@ async function postAsad(auth) {
         // get date email was sent
         let dateHeader = headers.filter(header => header.name === 'Date');
         let emailDate = dateHeader[0].value.slice(0, 16);
+        let sendDate = dateHeader[0].value;
 
         // if the email was sent today, then it's the one we're looking for!
-        if (todaysDate === emailDate) {
+        if (emailDate === todaysDate) {
+
           // grab the catalogue number
           let subjectHeader = headers.filter(header => header.name === 'Subject');
           let catalogueNum = parseInt(subjectHeader[0].value.split(' ')[1]);
-          // grab the beginning of the email body to extract variables
+
+          // grab the email body to extract variables
           let emailContent = originEmail.data.snippet;
-          emailContent = decodeString(emailContent)
-          console.log(emailContent)
+          emailContent = decodeString(emailContent);
+          console.log(emailContent);
 
-          const artistNameRegex = /([^-]+[a-z])/
-          let artistName = emailContent.match(artistNameRegex)[0]
+          // grab artist name from email content
+          let artistNameArr = emailContent.split(' - ');
+          let artistName = artistNameArr[0];
+          console.log('ARTIST: ', artistName);
 
-          const songTitleRegex = /([^-]+\d{4})/
-          let songTitleIdx = emailContent.match(songTitleRegex)[0]
-          let songTitle = songTitleIdx.slice(1, songTitleIdx.length - 5)
+          // grab song title from email content
+          const songTitleRegex = /[^-]+\(\d{4}\)/;
+          let songTitleArr = emailContent.match(songTitleRegex)[0];
+          let songTitle = songTitleArr.slice(1, -6).trim();
+          console.log('SONG: ', songTitle);
 
-          const releaseDateRegex = /\(\d{4}\)/
-          let releaseDateIdx = emailContent.match(releaseDateRegex)[0];
-          let releaseDate = parseInt(releaseDateIdx.slice(1, 5))
+          // grab release date from email content
+          const releaseDateRegex = /\(\d{4}\)/;
+          let releaseDateArr = emailContent.match(releaseDateRegex)[0];
+          let releaseDate = parseInt(releaseDateArr.slice(1, 5))
+          console.log('RELEASE DATE: ', releaseDate);
 
-          console.log(artistName)
-          console.log(songTitle)
-          console.log(releaseDate)
+          // form URL for Spotify search
+          let artistSearch = encodeString(artistName);
+          let songSearch = encodeString(songTitle);
+          let searchUrl = `https://api.spotify.com/v1/search?q=${artistSearch}+${songSearch}&type=track`;
 
           // get bearer token, then spotify link
-          // let spotifyLink = await getSpotifyToken(artistName, songTitle);
+          let spotifyToken = await getSpotifyToken();
+          let spotifyLink = await getSpotifyLink(searchUrl, spotifyToken);
 
-          // POST
-          // let newEntry = {
-          //   catalogue_num: catalogueNum,
-          //   artist: artistName,
-          //   song: songTitle,
-          //   release_date: releaseDate,
-          //   spotify_link: spotifyLink
-          // };
+          // Define new entry to post to database
+          let newEntry = {
+            catalogue_num: catalogueNum,
+            send_date: sendDate,
+            artist: artistName,
+            song: songTitle,
+            release_date: releaseDate,
+            spotify_link: spotifyLink
+          };
+          console.log('NEW ENTRY: ')
+          console.log(newEntry);
 
-          // axios.post(`${process.env.SERVER_URL}/entry`, newEntry)
-          //   .then(response => {
-          //     console.log('POSTED')
-          //   })
-          //   .catch(error => console.error(error));
+          // post it!
+          axios.post(`${process.env.SERVER_URL}/entry`, newEntry)
+            .then(response => {
+              console.log('POSTED');
+            })
+            .catch(error => console.error(error));
         };
       });
     });

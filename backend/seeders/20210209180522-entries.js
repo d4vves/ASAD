@@ -5,7 +5,6 @@ module.exports = {
     const Entries = require('../lib/entries.json').entries
     let entriesArr = Entries.map(entry => {
       return {
-        id: entry['catalogue_num'],
         catalogue_num: entry['catalogue_num'],
         send_date: entry['send_date'],
         artist: entry['artist'],

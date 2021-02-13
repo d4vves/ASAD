@@ -25,6 +25,7 @@ const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 const TOKEN_PATH = 'backend/lib/token.json';
 
 // Load client secrets from a local file.
+// TODO: Update to read credentials from .env? 
 fs.readFile('backend/credentials.json', (err, content) => {
   if (err) return console.log('Error loading client secret file:', err);
   // Authorize a client with credentials, then call the Gmail API.
@@ -89,17 +90,17 @@ async function seedDb(auth) {
   const gmail = google.gmail({version: 'v1', auth});
 
   // nextCatalogueNum and date variables
-  let nextCatalogueNum = 34;
+  let nextCatalogueNum = 99;
 
-  let startDate = new Date('2019, 5, 18');
+  let startDate = new Date('2019, 7, 23');
   let [afterMonth, afterDate, afterYear] = startDate.toLocaleDateString("en-US").split("/");
   let afterSearchDate = `${afterMonth}/${afterDate}/${afterYear}`;
 
-  let targetDate = new Date('2019, 5, 28');
+  let targetDate = new Date('2019, 7, 25');
   let [beforeMonth, beforeDate, beforeYear] = targetDate.toLocaleDateString("en-US").split("/");
   let beforeSearchDate = `${beforeMonth}/${beforeDate}/${beforeYear}`;
   
-  //initialize an array to push new entries to with existing JSON file entries
+  //initialize an array with existing progress to push new entries to.
   let entryJSON = [];
   fs.readFile('backend/lib/entries.json', (err, data) => {
     if (err) throw new Error('fs returned an error: ' + error);
@@ -110,20 +111,20 @@ async function seedDb(auth) {
   // define function to run at an interval
   const findEntry = async () => {
 
-    // fetch recent email list
+    // fetch ASAD email list
     await gmail.users.messages.list({
       userId: 'me',
       labelIds: 'Label_4083780721970678911',
       q: `after:${afterSearchDate} before:${beforeSearchDate}`
     }, async (error, response) => {
       if (error) throw new Error('The API returned an error: ' + error);
-      let recentEmailList = response.data.messages;
+      let emailList = response.data.messages;
       
-      // loop over recentEmailList
-      for (i = 0; i < recentEmailList.length; i++) {
+      // loop over emailList
+      for (i = 0; i < emailList.length; i++) {
 
         // filter emailList by threadId
-        let emailThread = recentEmailList.filter(email => email.threadId === recentEmailList[i].threadId);
+        let emailThread = emailList.filter(email => email.threadId === emailList[i].threadId);
 
         // grab id of origin email in thread
         let originEmailId = emailThread[emailThread.length - 1].id;
@@ -141,36 +142,36 @@ async function seedDb(auth) {
         if (catalogueNum === nextCatalogueNum) {
           // get email body and replace ascii characters
           let emailBody = originEmail.data.snippet;
-          let emailContent = decodeString(emailBody)
-          console.log('EMAIL CONTENT:')
-          console.log(emailContent)
+          let emailContent = decodeString(emailBody);
+          console.log('EMAIL CONTENT:');
+          console.log(emailContent);
 
           // get date header and grab send date
           let sendDateHeader = headers.filter(header => header.name === 'Date');
-          let sendDate = sendDateHeader[0].value
+          let sendDate = sendDateHeader[0].value;
 
           // grab artist name from email content
-          let artistNameIdx = emailContent.split(' - ')
-          let artistName = artistNameIdx[0]
-          console.log('ARTIST: ', artistName)
+          let artistNameArr = emailContent.split(' - ');
+          let artistName = artistNameArr[0];
+          console.log('ARTIST: ', artistName);
 
           // grab song title from email content
-          const songTitleRegex = /[^-]+\(\d{4}\)/
-          let songTitleIdx = emailContent.match(songTitleRegex)[0]
-          let songTitle = songTitleIdx.slice(1, -6).trim()
-          console.log('SONG: ', songTitle)
+          const songTitleRegex = /[^-]+\(\d{4}\)/;
+          let songTitleArr = emailContent.match(songTitleRegex)[0];
+          let songTitle = songTitleArr.slice(1, -6).trim();
+          console.log('SONG: ', songTitle);
 
           // grab release date from email content
-          const releaseDateRegex = /\(\d{4}\)/
-          let releaseDateIdx = emailContent.match(releaseDateRegex)[0];
-          let releaseDate = parseInt(releaseDateIdx.slice(1, 5))
-          console.log('RELEASE DATE: ', releaseDate)
+          const releaseDateRegex = /\(\d{4}\)/;
+          let releaseDateArr = emailContent.match(releaseDateRegex)[0];
+          let releaseDate = parseInt(releaseDateArr.slice(1, 5))
+          console.log('RELEASE DATE: ', releaseDate);
 
           // form URL for Spotify search
           let artistSearch = encodeString(artistName);
           let songSearch = encodeString(songTitle);
           let searchUrl = `https://api.spotify.com/v1/search?q=${artistSearch}+${songSearch}&type=track`;
-          console.log('SEARCH URL: ', searchUrl)
+          console.log('SEARCH URL: ', searchUrl);
 
           // get bearer token, then spotify link
           let spotifyToken = await getSpotifyToken();
@@ -188,7 +189,7 @@ async function seedDb(auth) {
           console.log('NEW ENTRY: ')
           console.log(newEntry);
 
-          // push entry
+          // push new entry
           entryJSON[0].entries.push(newEntry);
           // stringify for writing
           const entryContent = JSON.stringify(...entryJSON);
@@ -204,12 +205,13 @@ async function seedDb(auth) {
           afterSearchDate = `${month}/${date}/${year}`;
           nextCatalogueNum += 1;
 
-          console.log('START DATE: ', startDate)
-          console.log('NEXT CATA NUM: ', nextCatalogueNum)
+          console.log('START DATE: ', startDate);
+          console.log('NEXT CATALOGUE NUM: ', nextCatalogueNum);
 
 
           if (startDate >= targetDate) {
             clearInterval(postEntryInterval);
+            return;
           };
         };
       };
