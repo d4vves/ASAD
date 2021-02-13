@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import Asad from './components/Asad'
 import './App.css';
 
 function App() {
+  const [fullList, setFullList] = useState([])
+
+  const getFullList = () => {
+    axios.get(`http://localhost:6969`)
+    .then(response => {
+      console.log(response.data)
+      setFullList(response.data)
+    })
+  }
+
+  useEffect(() => {
+    getFullList()
+  }, [])
+
+  let displayList = fullList.map((song, idx) => {
+    return <Asad {...song} key={idx} />
+  })
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>ASAD</h1>
+      {displayList}
     </div>
   );
 }

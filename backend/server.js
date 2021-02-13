@@ -1,10 +1,16 @@
-require('dotenv').config();
+require('dotenv').config({ path: '/' });
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const db = require('./models');
 const express = require('express');
 
 const app = express();
 app.use(bodyParser.json());
+
+app.use(cors({
+    origin: process.env.CLIENT_URL,
+    optionsSuccessStatus: 200,
+}));
 
 app.get('/', (req, res) => {
     db.entry.findAll().then(entries => {
