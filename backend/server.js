@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '/' });
+require('dotenv').config()
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const db = require('./models');
@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(cors({
-    origin: process.env.CLIENT_URL,
+    origin: `${process.env.CLIENT_URL}`,
     optionsSuccessStatus: 200,
 }));
 
@@ -19,7 +19,6 @@ app.get('/', (req, res) => {
 });
 
 app.post('/entry', (req, res) => {
-    console.log(req.body)
     db.entry.findOrCreate({
         where: {
             catalogue_num: req.body.catalogue_num

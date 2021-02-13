@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Asad from './components/Asad'
+import Song from './components/Song'
 import './App.css';
 
 function App() {
   const [fullList, setFullList] = useState([])
 
   const getFullList = () => {
-    axios.get(`http://localhost:6969`)
+    axios.get(`${process.env.REACT_APP_SERVER_URL}`)
     .then(response => {
       console.log(response.data)
       setFullList(response.data)
@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   let displayList = fullList.map((song, idx) => {
-    return <Asad {...song} key={idx} />
+    return <Song {...song} key={idx} />
   })
 
   return (

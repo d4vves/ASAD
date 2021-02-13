@@ -22,11 +22,11 @@ const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
-const TOKEN_PATH = 'backend/lib/token.json';
+const TOKEN_PATH = './lib/token.json';
 
 // Load client secrets from a local file.
 // TODO: Update to read credentials from .env? 
-fs.readFile('backend/credentials.json', (err, content) => {
+fs.readFile('./credentials.json', (err, content) => {
   if (err) return console.log('Error loading client secret file:', err);
   // Authorize a client with credentials, then call the Gmail API.
   authorize(JSON.parse(content), seedDb);
@@ -102,8 +102,8 @@ async function seedDb(auth) {
   
   //initialize an array with existing progress to push new entries to.
   let entryJSON = [];
-  fs.readFile('backend/lib/entries.json', (err, data) => {
-    if (err) throw new Error('fs returned an error: ' + error);
+  fs.readFile('./lib/entries.json', (err, data) => {
+    if (err) throw new Error('fs returned an error: ' + err);
 
     entryJSON.push(JSON.parse(data));
   });
@@ -194,7 +194,7 @@ async function seedDb(auth) {
           // stringify for writing
           const entryContent = JSON.stringify(...entryJSON);
           // write new file
-          fs.writeFile('backend/lib/entries.json', entryContent, (err) => {
+          fs.writeFile('./lib/entries.json', entryContent, (err) => {
             if (err) throw new Error('fs returned an error: ' + error);
             console.log('Entry saved.');
           });

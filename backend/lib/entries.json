@@ -1,1 +1,810 @@
-{"entries":[{"catalogue_num":1,"send_date":"Fri, 12 Apr 2019 14:26:00 +0000 (UTC)","artist":"Donovan","song":"Get Thy Bearings","release_date":1968,"spotify_link":"https://open.spotify.com/track/6poYscuLQG8hvpxNnyeMUV","createdAt":"2021-02-04T03:48:23.572Z","updatedAt":"2021-02-04T03:48:23.572Z"},{"catalogue_num":2,"send_date":"Wed, 17 Apr 2019 15:45:00 +0000 (UTC)","artist":"Wire","song":"Kidney Bingos (Original Mix)","release_date":1988,"spotify_link":"https://open.spotify.com/track/5eiWabuVVrQQ8HTJZV5pMJ","createdAt":"2021-02-04T03:48:23.572Z","updatedAt":"2021-02-04T03:48:23.572Z"},{"catalogue_num":3,"send_date":"Thu, 18 Apr 2019 08:52:00 +0000 (UTC)","artist":"Rockin Ramrods","song":"Bright Lit Blue Skies","release_date":1966,"spotify_link":"https://open.spotify.com/track/1N5AfYG7UqkKfZYUQMa9mS","createdAt":"2021-02-04T03:48:23.572Z","updatedAt":"2021-02-04T03:48:23.572Z"},{"catalogue_num":4,"send_date":"Fri, 19 Apr 2019 13:34:14 +0000 (UTC)","artist":"ABBA","song":"My Mama Said","release_date":1974,"spotify_link":"https://open.spotify.com/track/4OOeJEyGBvTiLc4QWaaE94"},{"catalogue_num":5,"send_date":"Sat, 20 Apr 2019 13:36:04 +0000 (UTC)","artist":"La Peste","song":"Better Off Dead","release_date":1978,"spotify_link":"https://open.spotify.com/track/3OZDtn8LDZErO16kfKguNo"},{"catalogue_num":6,"send_date":"Sun, 21 Apr 2019 12:50:19 +0000 (UTC)","artist":"The Stone Roses","song":"I Am The Resurrection","release_date":1989,"spotify_link":"https://open.spotify.com/track/5ikdUUm6JbnEVnp35c7dvy"},{"catalogue_num":7,"send_date":"Mon, 22 Apr 2019 16:09:07 +0000 (UTC)","artist":"GC Cameron","song":"No Matter Where","release_date":1974,"spotify_link":"https://open.spotify.com/track/730ZiMDs9bHSJAYib9kmop"},{"catalogue_num":8,"send_date":"Tue, 23 Apr 2019 17:21:45 +0000 (UTC)","artist":"Tears For Fears","song":"Watch Me Bleed","release_date":1983,"spotify_link":"https://open.spotify.com/track/1kChx0uGraDIIyOVtBVawU"},{"catalogue_num":9,"send_date":"Wed, 24 Apr 2019 14:46:21 +0000 (UTC)","artist":"The Dirtbombs","song":"The Sharpest Claws","release_date":2000,"spotify_link":"https://open.spotify.com/track/4aOiY0m2XTrqov2RZ02Re3"},{"catalogue_num":10,"send_date":"Thu, 25 Apr 2019 16:19:24 +0000 (UTC)","artist":"Hall & Oates","song":"I'm Just A Kid (Don't Make Me Feel Like A Man)","release_date":1973,"spotify_link":"https://open.spotify.com/track/17SAYbj2TksOCbjqXcyFyA"},{"catalogue_num":11,"send_date":"Fri, 26 Apr 2019 15:12:03 +0000 (UTC)","artist":"The Style Council","song":"My Ever Changing Moods (12\" version)","release_date":1984,"spotify_link":""},{"catalogue_num":12,"send_date":"Sat, 27 Apr 2019 17:13:58 +0000 (UTC)","artist":"Motörhead","song":"Stay Clean","release_date":1979,"spotify_link":"https://open.spotify.com/track/0vcccE7VjUlGjOcXYiWXgn"},{"catalogue_num":13,"send_date":"Sun, 28 Apr 2019 16:15:00 +0000 (UTC)","artist":"Simon Dupree & The Big Sound","song":"Day Time, Night Time","release_date":1967,"spotify_link":"https://open.spotify.com/track/3kYIfkIPvXZuUsefJraCNS"},{"catalogue_num":14,"send_date":"Mon, 29 Apr 2019 15:23:21 +0000 (UTC)","artist":"Stealers Wheel","song":"Star","release_date":1973,"spotify_link":"https://open.spotify.com/track/7Htjqx40jNYmjhVAhbSGd4"},{"catalogue_num":15,"send_date":"Tue, 30 Apr 2019 14:38:01 +0000 (UTC)","artist":"The Nervebreakers","song":"My Girlfriend Is A Rock","release_date":1978,"spotify_link":"https://open.spotify.com/track/25NfQcqkzvQwr8IwH8A4j6"},{"catalogue_num":16,"send_date":"Wed, 1 May 2019 15:24:30 +0000 (UTC)","artist":"Brian Stevens","song":"Every Night She Glows","release_date":1996,"spotify_link":"https://open.spotify.com/track/2CTe5cF6fLKwShcYz0c4T6"},{"catalogue_num":17,"send_date":"Thu, 2 May 2019 13:26:59 +0000 (UTC)","artist":"XTC","song":"Big Day","release_date":1986,"spotify_link":"https://open.spotify.com/track/0uyL8272RoVI3gmLPtoJR2"},{"catalogue_num":18,"send_date":"Fri, 3 May 2019 14:24:45 +0000 (UTC)","artist":"The Chi-Lites","song":"Stoned Out Of My Mind","release_date":1973,"spotify_link":"https://open.spotify.com/track/3fcoCYbJiqzSNSsNRfnLea"},{"catalogue_num":19,"send_date":"Sat, 4 May 2019 14:40:31 +0000 (UTC)","artist":"Lou Christie","song":"She Sold Me Magic","release_date":1969,"spotify_link":"https://open.spotify.com/track/1AZW7BLJQwXeHxwn1TNNx0"},{"catalogue_num":20,"send_date":"Sun, 5 May 2019 14:50:34 +0000 (UTC)","artist":"Dennis Wilson & Rumbo","song":"Lady (Fallin' In Love)","release_date":1970,"spotify_link":""},{"catalogue_num":21,"send_date":"Mon, 6 May 2019 12:05:02 +0000 (UTC)","artist":"Breakfast Club","song":"Right On Track","release_date":1987,"spotify_link":"https://open.spotify.com/track/3UiuKZWtgXjeAfnfGqIeu0"},{"catalogue_num":22,"send_date":"Tue, 7 May 2019 15:07:09 +0000 (UTC)","artist":"The Parasites","song":"Crazy","release_date":1993,"spotify_link":""},{"catalogue_num":23,"send_date":"Wed, 8 May 2019 13:38:00 +0000 (UTC)","artist":"Lindsey Buckingham","song":"Go Insane","release_date":1984,"spotify_link":"https://open.spotify.com/track/143sH2crBs4fUQyRr8pjUm"},{"catalogue_num":24,"send_date":"Thu, 9 May 2019 13:47:42 +0000 (UTC)","artist":"Bee Gees","song":"Kitty Can","release_date":1968,"spotify_link":"https://open.spotify.com/track/49RaM5bnlyIRWgyqkUGorE"},{"catalogue_num":25,"send_date":"Fri, 10 May 2019 13:49:55 +0000 (UTC)","artist":"Magazine","song":"A Song From Under The Floorboards","release_date":1980,"spotify_link":"https://open.spotify.com/track/2vMdVp2b2lg1olrNttrGg8"},{"catalogue_num":26,"send_date":"Sat, 11 May 2019 15:26:45 +0000 (UTC)","artist":"The Bats","song":"Claudine","release_date":1990,"spotify_link":"https://open.spotify.com/track/7oDEfDlu4DmFZdl0ELck9v"},{"catalogue_num":27,"send_date":"Sun, 12 May 2019 08:10:42 -0500","artist":"Crazy Horse","song":"I Don't Want To Talk About It","release_date":1971,"spotify_link":"https://open.spotify.com/track/0myBFxr4evQ0HxjbaL5TOe"},{"catalogue_num":28,"send_date":"Mon, 13 May 2019 08:18:16 -0500","artist":"Barbara Lewis","song":"Love Makes The World Go Round","release_date":1968,"spotify_link":"https://open.spotify.com/track/1RbM0UssGaj1E1FqjZ1v8b"},{"catalogue_num":29,"send_date":"Tue, 14 May 2019 07:24:31 -0500","artist":"Super Furry Animals","song":"Carbon Dating","release_date":2008,"spotify_link":"https://open.spotify.com/track/7zzjiy3OGZnPpxsIfLnzUQ"},{"catalogue_num":30,"send_date":"Wed, 15 May 2019 11:03:30 -0500","artist":"Simple Minds","song":"Love Song","release_date":1981,"spotify_link":"https://open.spotify.com/track/6zEf9xxlJpOgTgFgFz0Qos"},{"catalogue_num":31,"send_date":"Thu, 16 May 2019 06:43:20 -0500","artist":"The Outcasts","song":"Loving You Sometimes","release_date":1968,"spotify_link":""},{"catalogue_num":32,"send_date":"Fri, 17 May 2019 08:33:14 -0500","artist":"The Rings (UK)","song":"I Wanna Be Free","release_date":1977,"spotify_link":""},{"catalogue_num":33,"send_date":"Sat, 18 May 2019 08:33:14 -0500","artist":"The Olivia Tremor Control","song":"Hideaway","release_date":1999,"spotify_link":"https://open.spotify.com/track/2tBMTRlUg99ifYxZAJWo4n"},{"catalogue_num":34,"send_date":"Sun, 19 May 2019 16:20:11 +0000 (UTC)","artist":"Curt Boettcher","song":"Baby It's Real","release_date":1969,"spotify_link":"https://open.spotify.com/track/5nhLoOvVQMGPjStuZYjLpQ"},{"catalogue_num":35,"send_date":"Mon, 20 May 2019 14:38:13 +0000 (UTC)","artist":"Elvis Presley","song":"His Latest Flame (Marie's The Name)","release_date":1961,"spotify_link":"https://open.spotify.com/track/4qbLOU1T7xgTH87eUSkvJ1"},{"catalogue_num":36,"send_date":"Tue, 21 May 2019 15:19:32 +0000 (UTC)","artist":"Mary Lou Lord","song":"I Figured You Out You Out (Original Mix feat. Elliott Smith)","release_date":1997,"spotify_link":""},{"catalogue_num":37,"send_date":"Wed, 22 May 2019 15:24:59 +0000 (UTC)","artist":"Dwight Twilley Band","song":"Looking For The Magic","release_date":1977,"spotify_link":"https://open.spotify.com/track/3kJXrEVUCdPQ3e4e5k9OHC"},{"catalogue_num":38,"send_date":"Thu, 23 May 2019 14:25:07 +0000 (UTC)","artist":"The Toreros","song":"Come","release_date":1966,"spotify_link":""},{"catalogue_num":39,"send_date":"Fri, 24 May 2019 14:09:36 +0000 (UTC)","artist":"Yellow Magic Orchestra","song":"Behind The Mask","release_date":1979,"spotify_link":"https://open.spotify.com/track/6fcvo9Gfgx5V4XfMbWtUOZ"},{"catalogue_num":40,"send_date":"Sat, 25 May 2019 10:00:36 +0000 (UTC)","artist":"Cleaners From  Venus","song":"Time In Vain","release_date":1982,"spotify_link":"https://open.spotify.com/album/0pMgdGYL1d7YfLZ6Y2PYLG"},{"catalogue_num":41,"send_date":"Sun, 26 May 2019 14:41:27 +0000 (UTC)","artist":"The Trammps","song":"Hold Back The Night","release_date":1973,"spotify_link":"https://open.spotify.com/track/2Jok6fkKmcP7Lp7XLzQ1wj"},{"catalogue_num":42,"send_date":"Mon, 27 May 2019 15:32:47 +0000 (UTC)","artist":"The Idle Race","song":"On With The Show","release_date":1968,"spotify_link":"https://open.spotify.com/track/0f2F1OZChaKbGPz6xCvz3F"},{"catalogue_num":43,"send_date":"Tue, 28 May 2019 06:12:00 -0500","artist":"Sweet","song":"Wig Wam Bam","release_date":1971,"spotify_link":"https://open.spotify.com/track/0YCaA7bdy0CGQodmKs2BU1"},{"catalogue_num":44,"send_date":"Wed, 29 May 2019 15:35:13 +0000 (UTC)","artist":"Nick Heyward","song":"Kite","release_date":1992,"spotify_link":"https://open.spotify.com/track/7m5B2YP5gxn9YlAQ69Sc65"},{"catalogue_num":45,"send_date":"Thu, 30 May 2019 01:36:23 -0500","artist":"The Radio Dept.","song":"Pet Grief","release_date":2006,"spotify_link":"https://open.spotify.com/track/4GwWOTy6UBPJrEtwls9GSD"},{"catalogue_num":46,"send_date":"Fri, 31 May 2019 15:33:31 +0000 (UTC)","artist":"The Hollies","song":"Sorry Suzanne","release_date":1968,"spotify_link":"https://open.spotify.com/track/5mLqHfJcDSfJo31eWVFyjF"},{"catalogue_num":47,"send_date":"Sat, 1 Jun 2019 16:16:18 +0000 (UTC)","artist":"Thin Lizzy","song":"No One Told Him","release_date":1981,"spotify_link":"https://open.spotify.com/track/4yXmG4hrbCkqnDAV6G5jy0"},{"catalogue_num":48,"send_date":"Sun, 2 Jun 2019 15:28:33 +0000 (UTC)","artist":"The Toms","song":"Other Boys Do","release_date":1979,"spotify_link":"https://open.spotify.com/track/0sszhd1kbH9xJiewizA7O4"},{"catalogue_num":49,"send_date":"Mon, 3 Jun 2019 14:17:20 +0000 (UTC)","artist":"Private Dicks","song":"Don't Follow My Lead","release_date":1979,"spotify_link":"https://open.spotify.com/track/2yYjCeObNMP5Ugk2dvyDMX"},{"catalogue_num":50,"send_date":"Tue, 4 Jun 2019 14:02:21 +0000 (UTC)","artist":"Arling & Cameron","song":"Dirty Robot","release_date":2001,"spotify_link":"https://open.spotify.com/track/33QKhbw3hZ07ad70On4zes"},{"catalogue_num":51,"send_date":"Wed, 5 Jun 2019 12:13:16 +0000 (UTC)","artist":"The Boomtown Rats","song":"Never In A Million Years","release_date":1982,"spotify_link":"https://open.spotify.com/track/3toOTqKrI0LDaKkBxifhwC"},{"catalogue_num":52,"send_date":"Thu, 6 Jun 2019 13:38:04 +0000 (UTC)","artist":"Amen Corner","song":"(If Paradise Is) Half As Nice","release_date":1969,"spotify_link":"https://open.spotify.com/track/5LqgYSG0yPJTsPzkk3nnya"},{"catalogue_num":53,"send_date":"Fri, 7 Jun 2019 14:06:04 +0000 (UTC)","artist":"Gorky's Zygotic Mynci","song":"Spanish Dance Troupe","release_date":1999,"spotify_link":"https://open.spotify.com/track/0utjR80b0Q6lKtO6gb2mCf"},{"catalogue_num":54,"send_date":"Sat, 8 Jun 2019 12:56:07 +0000 (UTC)","artist":"The Beach Boys","song":"All I Wanna Do","release_date":1970,"spotify_link":"https://open.spotify.com/track/7y9O8sJmuX7DvmyrR7h3PY"},{"catalogue_num":55,"send_date":"Sun, 9 Jun 2019 13:51:17 +0000 (UTC)","artist":"Jack Wood","song":"Born To Wonder","release_date":1964,"spotify_link":""},{"catalogue_num":56,"send_date":"Mon, 10 Jun 2019 15:18:18 +0000 (UTC)","artist":"The Pillows","song":"My Foot","release_date":2006,"spotify_link":"https://open.spotify.com/track/3vxcJJLzgTsciHnuA7aBIR"},{"catalogue_num":57,"send_date":"Tue, 11 Jun 2019 14:32:48 +0000 (UTC)","artist":"The Adventures","song":"Send In My Heart","release_date":1985,"spotify_link":"https://open.spotify.com/track/36BxkSj96U1izWsPd3XeLW"},{"catalogue_num":58,"send_date":"Wed, 12 Jun 2019 14:20:13 +0000 (UTC)","artist":"The Raspberries","song":"I Reach For The Light","release_date":1973,"spotify_link":"https://open.spotify.com/track/2o0VjW7ewUGtKWGNi95P8F"},{"catalogue_num":59,"send_date":"Thu, 13 Jun 2019 11:52:44 +0000 (UTC)","artist":"Talking Heads","song":"A Clean Break (Let's Work)","release_date":1977,"spotify_link":"https://open.spotify.com/track/2q6YXRcGHRM25TPrNfhRfH"},{"catalogue_num":60,"send_date":"Fri, 14 Jun 2019 12:43:53 +0000 (UTC)","artist":"The Sonics","song":"Shot Down","release_date":1966,"spotify_link":"https://open.spotify.com/track/6ae38qMdEC86XRa2LaOguu"},{"catalogue_num":61,"send_date":"Sat, 15 Jun 2019 12:49:34 +0000 (UTC)","artist":"Devo","song":"Girl U Want","release_date":1980,"spotify_link":"https://open.spotify.com/track/0rNXiNb8IN78GL6cx9VsP7"},{"catalogue_num":62,"send_date":"Sun, 16 Jun 2019 08:59:34 +0000 (UTC)","artist":"Ocean Colour Scene","song":"Hundred Mile High City","release_date":1997,"spotify_link":"https://open.spotify.com/track/5P2CWpIzIsjU8gxIy5Jtx8"},{"catalogue_num":63,"send_date":"Mon, 17 Jun 2019 14:02:52 +0000 (UTC)","artist":"The Go-Betweens","song":"Was There Anything I Could Do","release_date":1988,"spotify_link":"https://open.spotify.com/track/4sDugUVhCYkMesZtxNE6H2"},{"catalogue_num":64,"send_date":"Tue, 18 Jun 2019 13:53:12 +0000 (UTC)","artist":"The Swinging Blue Jeans","song":"Summer Comes Sunday","release_date":1964,"spotify_link":"https://open.spotify.com/track/0eTWvGu8OZVrkxv0sZPE04"},{"catalogue_num":65,"send_date":"Wed, 19 Jun 2019 14:03:50 +0000 (UTC)","artist":"Shuggie Otis","song":"Inspiration Information","release_date":1974,"spotify_link":"https://open.spotify.com/track/3q8AgabNzK1mPJdI8egIcn"},{"catalogue_num":66,"send_date":"Thu, 20 Jun 2019 14:15:32 +0000 (UTC)","artist":"The Damned","song":"Life Goes On","release_date":1980,"spotify_link":"https://open.spotify.com/track/5fHTdGsnnj0minXaTKAdFV"},{"catalogue_num":67,"send_date":"Fri, 21 Jun 2019 14:35:18 +0000 (UTC)","artist":"The Kinks","song":"She's Got Everything","release_date":1968,"spotify_link":"https://open.spotify.com/track/3muvPvzoQqwY8wRazwV9K6"},{"catalogue_num":68,"send_date":"Sat, 22 Jun 2019 12:40:33 +0000 (UTC)","artist":"Sloan","song":"G Turns To D","release_date":1997,"spotify_link":"https://open.spotify.com/track/33o5nUukDNnfYNpHzsGubi"},{"catalogue_num":69,"send_date":"Sun, 23 Jun 2019 15:22:05 +0000 (UTC)","artist":"Klaatu","song":"For You Girl","release_date":1973,"spotify_link":"https://open.spotify.com/track/4XU1RTF195OnPe3G9f5Njn"},{"catalogue_num":70,"send_date":"Mon, 24 Jun 2019 15:43:26 +0000 (UTC)","artist":"Jim Noir","song":"Eanie Meany","release_date":2004,"spotify_link":"https://open.spotify.com/track/0gIKdu54owyKUEXK8BEVyZ"},{"catalogue_num":71,"send_date":"Tue, 25 Jun 2019 14:14:17 +0000 (UTC)","artist":"The Iveys","song":"Beautiful And Blue","release_date":1969,"spotify_link":""},{"catalogue_num":72,"send_date":"Wed, 26 Jun 2019 16:14:15 +0000 (UTC)","artist":"Fleetwood Mac","song":"Walk A Thin Line","release_date":1979,"spotify_link":"https://open.spotify.com/track/6BmG6l1nLovI9Q2ZlD0oU8"},{"catalogue_num":73,"send_date":"Thu, 27 Jun 2019 14:21:01 +0000 (UTC)","artist":"Jellyfish","song":"Calling Sarah","release_date":1990,"spotify_link":"https://open.spotify.com/track/5lLJgDx14XkCKCCKnVa37z"},{"catalogue_num":74,"send_date":"Fri, 28 Jun 2019 15:06:14 +0000 (UTC)","artist":"The Delfonics","song":"Ready Or Not Here I Come (Can't Hide From Love)","release_date":1968,"spotify_link":"https://open.spotify.com/track/5RnlUyTKgmd7V6tXdQcKVK"},{"catalogue_num":75,"send_date":"Sat, 29 Jun 2019 14:53:28 +0000 (UTC)","artist":"Split Enz","song":"Hard Act To Follow","release_date":1981,"spotify_link":"https://open.spotify.com/track/1TQxeWzuJ7RtQrw4Bgx8Sg"},{"catalogue_num":76,"send_date":"Sun, 30 Jun 2019 14:42:50 +0000 (UTC)","artist":"Glen Campbell","song":"Guess I'm Dumb","release_date":1965,"spotify_link":"https://open.spotify.com/track/1TXmgEg4hH8Tl4nyo4OZdV"},{"catalogue_num":77,"send_date":"Mon, 1 Jul 2019 14:31:24 +0000 (UTC)","artist":"Adam & The Ants","song":"Xerox","release_date":1979,"spotify_link":""},{"catalogue_num":78,"send_date":"Tue, 2 Jul 2019 11:52:08 +0000 (UTC)","artist":"Dinosaur","song":"Kiss Me Again (Original Edit)","release_date":1978,"spotify_link":""},{"catalogue_num":79,"send_date":"Wed, 3 Jul 2019 07:18:08 +0000 (UTC)","artist":"Cotton Mather","song":"Homefront Cameo","release_date":1997,"spotify_link":"https://open.spotify.com/track/49G77FXnNICfnptWQuoEWJ"},{"catalogue_num":80,"send_date":"Thu, 4 Jul 2019 14:52:27 +0000 (UTC)","artist":"Ohio Express","song":"She's Not Coming Home","release_date":1968,"spotify_link":""},{"catalogue_num":81,"send_date":"Fri, 5 Jul 2019 11:25:01 +0000 (UTC)","artist":"The Blades","song":"Hot For You","release_date":1980,"spotify_link":"https://open.spotify.com/track/5yDg5zojQZUuovJTr3qbkw"},{"catalogue_num":82,"send_date":"Sat, 6 Jul 2019 13:30:39 +0000 (UTC)","artist":"Mellow","song":"Another Mellow Winter","release_date":1999,"spotify_link":"https://open.spotify.com/track/285NJMCnfS7EtYsaBXyIsP"},{"catalogue_num":83,"send_date":"Sun, 7 Jul 2019 13:11:47 +0000 (UTC)","artist":"Buffalo Springfield","song":"Expecting To Fly","release_date":1967,"spotify_link":"https://open.spotify.com/track/3uVmR6oQq0NluVZXkipKHV"},{"catalogue_num":84,"send_date":"Mon, 8 Jul 2019 14:25:12 +0000 (UTC)","artist":"Todd Rundgren","song":"A Dream Goes On Forever","release_date":1974,"spotify_link":"https://open.spotify.com/track/0tiBROmRVHxKAtgI8Hg9Sa"},{"catalogue_num":85,"send_date":"Tue, 9 Jul 2019 14:45:24 +0000 (UTC)","artist":"Tim Scott","song":"Swear (Extended Mix)","release_date":1983,"spotify_link":""},{"catalogue_num":86,"send_date":"Wed, 10 Jul 2019 15:56:04 +0000 (UTC)","artist":"Leon Haywood","song":"I Want'a Do Something Freaky To You","release_date":1975,"spotify_link":"https://open.spotify.com/track/4ijuSvn7dE8i9o8Ori6QmC"},{"catalogue_num":87,"send_date":"Thu, 11 Jul 2019 11:16:03 +0000 (UTC)","artist":"The Aerovons","song":"World Of You","release_date":1969,"spotify_link":"https://open.spotify.com/track/3MIGyi08RzwvZhKZZWqvtt"},{"catalogue_num":88,"send_date":"Fri, 12 Jul 2019 13:13:31 +0000 (UTC)","artist":"Eddie Noack","song":"Psycho","release_date":1968,"spotify_link":"https://open.spotify.com/track/3Vtcjs5wVanh6LocIRrpwy"},{"catalogue_num":89,"send_date":"Sat, 13 Jul 2019 14:29:12 +0000 (UTC)","artist":"Tubeway Army","song":"That's Too Bad","release_date":1978,"spotify_link":"https://open.spotify.com/track/7kOtA5PyNDJFBbeCps4DDc"},{"catalogue_num":90,"send_date":"Sun, 14 Jul 2019 16:25:14 +0000 (UTC)","artist":"Manic Street Preachers","song":"Ocean Spray","release_date":2001,"spotify_link":"https://open.spotify.com/track/2m8EQltnKwD4kX2Y40WI0v"},{"catalogue_num":91,"send_date":"Mon, 15 Jul 2019 14:52:28 +0000 (UTC)","artist":"Os Mutantes","song":"A Minha Menina","release_date":1968,"spotify_link":"https://open.spotify.com/track/0lGEWOZvMexZFXckBJxlVO"},{"catalogue_num":92,"send_date":"Tue, 16 Jul 2019 08:21:28 +0000 (UTC)","artist":"Echo & The Bunnymen","song":"Never Stop (Discotheque)","release_date":1983,"spotify_link":"https://open.spotify.com/track/6Axyxy9RDr7mZzQgxeUMbk"},{"catalogue_num":93,"send_date":"Wed, 17 Jul 2019 12:18:10 +0000 (UTC)","artist":"Ween","song":"Ocean Man","release_date":1997,"spotify_link":"https://open.spotify.com/track/6M14BiCN00nOsba4JaYsHW"},{"catalogue_num":94,"send_date":"Thu, 18 Jul 2019 11:36:14 +0000 (UTC)","artist":"Alessi","song":"Seabird","release_date":1976,"spotify_link":"https://open.spotify.com/track/7qw4F9ebIh2z1dSBpJMfdt"},{"catalogue_num":95,"send_date":"Fri, 19 Jul 2019 15:45:48 +0000 (UTC)","artist":"The Revelons","song":"The Way (You Touch My Hand)","release_date":1979,"spotify_link":"https://open.spotify.com/track/5QhBOHpkIebUOwGMGp6AMK"},{"catalogue_num":96,"send_date":"Sat, 20 Jul 2019 14:08:49 +0000 (UTC)","artist":"The Association","song":"Everything That Touches You","release_date":1968,"spotify_link":"https://open.spotify.com/track/7g0WpDuOX4hxBKCsoitOXn"},{"catalogue_num":97,"send_date":"Sun, 21 Jul 2019 14:07:02 +0000 (UTC)","artist":"The Whispers","song":"And The Beat Goes On","release_date":1979,"spotify_link":"https://open.spotify.com/track/7oQ1wkBmYSBEC2x7U08dvn"},{"catalogue_num":98,"send_date":"Mon, 22 Jul 2019 14:07:02 +0000 (UTC)","artist":"Nik Kershaw","song":"Wouldn't It Be Good","release_date":1984,"spotify_link":"https://open.spotify.com/track/34yZYzGEslpYGKU3VlGRDn"},{"catalogue_num":99,"send_date":"Tue, 23 Jul 2019 15:52:38 +0000 (UTC)","artist":"The Mynah Birds","song":"It's My Time","release_date":1966,"spotify_link":"https://open.spotify.com/track/55TUxy2kLaZgEoqP6ZwpXr"},{"catalogue_num":100,"send_date":"Wed, 24 Jul 2019 15:22:09 +0000 (UTC)","artist":"The Cramps","song":"Dames, Booze, Chains And Boots","release_date":1991,"spotify_link":"https://open.spotify.com/track/1VEmbwgiReJiYA6lAqv0yu"}]}
+{
+    "entries": [
+        {
+            "catalogue_num": 1,
+            "send_date": "Fri, 12 Apr 2019 14:26:00 +0000 (UTC)",
+            "artist": "Donovan",
+            "song": "Get Thy Bearings",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/6poYscuLQG8hvpxNnyeMUV",
+            "createdAt": "2021-02-04T03:48:23.572Z",
+            "updatedAt": "2021-02-04T03:48:23.572Z"
+        },
+        {
+            "catalogue_num": 2,
+            "send_date": "Wed, 17 Apr 2019 15:45:00 +0000 (UTC)",
+            "artist": "Wire",
+            "song": "Kidney Bingos (Original Mix)",
+            "release_date": 1988,
+            "spotify_link": "https://open.spotify.com/track/5eiWabuVVrQQ8HTJZV5pMJ",
+            "createdAt": "2021-02-04T03:48:23.572Z",
+            "updatedAt": "2021-02-04T03:48:23.572Z"
+        },
+        {
+            "catalogue_num": 3,
+            "send_date": "Thu, 18 Apr 2019 08:52:00 +0000 (UTC)",
+            "artist": "Rockin Ramrods",
+            "song": "Bright Lit Blue Skies",
+            "release_date": 1966,
+            "spotify_link": "https://open.spotify.com/track/1N5AfYG7UqkKfZYUQMa9mS",
+            "createdAt": "2021-02-04T03:48:23.572Z",
+            "updatedAt": "2021-02-04T03:48:23.572Z"
+        },
+        {
+            "catalogue_num": 4,
+            "send_date": "Fri, 19 Apr 2019 13:34:14 +0000 (UTC)",
+            "artist": "ABBA",
+            "song": "My Mama Said",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/4OOeJEyGBvTiLc4QWaaE94"
+        },
+        {
+            "catalogue_num": 5,
+            "send_date": "Sat, 20 Apr 2019 13:36:04 +0000 (UTC)",
+            "artist": "La Peste",
+            "song": "Better Off Dead",
+            "release_date": 1978,
+            "spotify_link": "https://open.spotify.com/track/3OZDtn8LDZErO16kfKguNo"
+        },
+        {
+            "catalogue_num": 6,
+            "send_date": "Sun, 21 Apr 2019 12:50:19 +0000 (UTC)",
+            "artist": "The Stone Roses",
+            "song": "I Am The Resurrection",
+            "release_date": 1989,
+            "spotify_link": "https://open.spotify.com/track/5ikdUUm6JbnEVnp35c7dvy"
+        },
+        {
+            "catalogue_num": 7,
+            "send_date": "Mon, 22 Apr 2019 16:09:07 +0000 (UTC)",
+            "artist": "GC Cameron",
+            "song": "No Matter Where",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/730ZiMDs9bHSJAYib9kmop"
+        },
+        {
+            "catalogue_num": 8,
+            "send_date": "Tue, 23 Apr 2019 17:21:45 +0000 (UTC)",
+            "artist": "Tears For Fears",
+            "song": "Watch Me Bleed",
+            "release_date": 1983,
+            "spotify_link": "https://open.spotify.com/track/1kChx0uGraDIIyOVtBVawU"
+        },
+        {
+            "catalogue_num": 9,
+            "send_date": "Wed, 24 Apr 2019 14:46:21 +0000 (UTC)",
+            "artist": "The Dirtbombs",
+            "song": "The Sharpest Claws",
+            "release_date": 2000,
+            "spotify_link": "https://open.spotify.com/track/4aOiY0m2XTrqov2RZ02Re3"
+        },
+        {
+            "catalogue_num": 10,
+            "send_date": "Thu, 25 Apr 2019 16:19:24 +0000 (UTC)",
+            "artist": "Hall & Oates",
+            "song": "I'm Just A Kid (Don't Make Me Feel Like A Man)",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/17SAYbj2TksOCbjqXcyFyA"
+        },
+        {
+            "catalogue_num": 11,
+            "send_date": "Fri, 26 Apr 2019 15:12:03 +0000 (UTC)",
+            "artist": "The Style Council",
+            "song": "My Ever Changing Moods (12\" version)",
+            "release_date": 1984,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 12,
+            "send_date": "Sat, 27 Apr 2019 17:13:58 +0000 (UTC)",
+            "artist": "Motörhead",
+            "song": "Stay Clean",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/0vcccE7VjUlGjOcXYiWXgn"
+        },
+        {
+            "catalogue_num": 13,
+            "send_date": "Sun, 28 Apr 2019 16:15:00 +0000 (UTC)",
+            "artist": "Simon Dupree & The Big Sound",
+            "song": "Day Time, Night Time",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/3kYIfkIPvXZuUsefJraCNS"
+        },
+        {
+            "catalogue_num": 14,
+            "send_date": "Mon, 29 Apr 2019 15:23:21 +0000 (UTC)",
+            "artist": "Stealers Wheel",
+            "song": "Star",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/7Htjqx40jNYmjhVAhbSGd4"
+        },
+        {
+            "catalogue_num": 15,
+            "send_date": "Tue, 30 Apr 2019 14:38:01 +0000 (UTC)",
+            "artist": "The Nervebreakers",
+            "song": "My Girlfriend Is A Rock",
+            "release_date": 1978,
+            "spotify_link": "https://open.spotify.com/track/25NfQcqkzvQwr8IwH8A4j6"
+        },
+        {
+            "catalogue_num": 16,
+            "send_date": "Wed, 1 May 2019 15:24:30 +0000 (UTC)",
+            "artist": "Brian Stevens",
+            "song": "Every Night She Glows",
+            "release_date": 1996,
+            "spotify_link": "https://open.spotify.com/track/2CTe5cF6fLKwShcYz0c4T6"
+        },
+        {
+            "catalogue_num": 17,
+            "send_date": "Thu, 2 May 2019 13:26:59 +0000 (UTC)",
+            "artist": "XTC",
+            "song": "Big Day",
+            "release_date": 1986,
+            "spotify_link": "https://open.spotify.com/track/0uyL8272RoVI3gmLPtoJR2"
+        },
+        {
+            "catalogue_num": 18,
+            "send_date": "Fri, 3 May 2019 14:24:45 +0000 (UTC)",
+            "artist": "The Chi-Lites",
+            "song": "Stoned Out Of My Mind",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/3fcoCYbJiqzSNSsNRfnLea"
+        },
+        {
+            "catalogue_num": 19,
+            "send_date": "Sat, 4 May 2019 14:40:31 +0000 (UTC)",
+            "artist": "Lou Christie",
+            "song": "She Sold Me Magic",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/1AZW7BLJQwXeHxwn1TNNx0"
+        },
+        {
+            "catalogue_num": 20,
+            "send_date": "Sun, 5 May 2019 14:50:34 +0000 (UTC)",
+            "artist": "Dennis Wilson & Rumbo",
+            "song": "Lady (Fallin' In Love)",
+            "release_date": 1970,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 21,
+            "send_date": "Mon, 6 May 2019 12:05:02 +0000 (UTC)",
+            "artist": "Breakfast Club",
+            "song": "Right On Track",
+            "release_date": 1987,
+            "spotify_link": "https://open.spotify.com/track/3UiuKZWtgXjeAfnfGqIeu0"
+        },
+        {
+            "catalogue_num": 22,
+            "send_date": "Tue, 7 May 2019 15:07:09 +0000 (UTC)",
+            "artist": "The Parasites",
+            "song": "Crazy",
+            "release_date": 1993,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 23,
+            "send_date": "Wed, 8 May 2019 13:38:00 +0000 (UTC)",
+            "artist": "Lindsey Buckingham",
+            "song": "Go Insane",
+            "release_date": 1984,
+            "spotify_link": "https://open.spotify.com/track/143sH2crBs4fUQyRr8pjUm"
+        },
+        {
+            "catalogue_num": 24,
+            "send_date": "Thu, 9 May 2019 13:47:42 +0000 (UTC)",
+            "artist": "Bee Gees",
+            "song": "Kitty Can",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/49RaM5bnlyIRWgyqkUGorE"
+        },
+        {
+            "catalogue_num": 25,
+            "send_date": "Fri, 10 May 2019 13:49:55 +0000 (UTC)",
+            "artist": "Magazine",
+            "song": "A Song From Under The Floorboards",
+            "release_date": 1980,
+            "spotify_link": "https://open.spotify.com/track/2vMdVp2b2lg1olrNttrGg8"
+        },
+        {
+            "catalogue_num": 26,
+            "send_date": "Sat, 11 May 2019 15:26:45 +0000 (UTC)",
+            "artist": "The Bats",
+            "song": "Claudine",
+            "release_date": 1990,
+            "spotify_link": "https://open.spotify.com/track/7oDEfDlu4DmFZdl0ELck9v"
+        },
+        {
+            "catalogue_num": 27,
+            "send_date": "Sun, 12 May 2019 08:10:42 -0500",
+            "artist": "Crazy Horse",
+            "song": "I Don't Want To Talk About It",
+            "release_date": 1971,
+            "spotify_link": "https://open.spotify.com/track/0myBFxr4evQ0HxjbaL5TOe"
+        },
+        {
+            "catalogue_num": 28,
+            "send_date": "Mon, 13 May 2019 08:18:16 -0500",
+            "artist": "Barbara Lewis",
+            "song": "Love Makes The World Go Round",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/1RbM0UssGaj1E1FqjZ1v8b"
+        },
+        {
+            "catalogue_num": 29,
+            "send_date": "Tue, 14 May 2019 07:24:31 -0500",
+            "artist": "Super Furry Animals",
+            "song": "Carbon Dating",
+            "release_date": 2008,
+            "spotify_link": "https://open.spotify.com/track/7zzjiy3OGZnPpxsIfLnzUQ"
+        },
+        {
+            "catalogue_num": 30,
+            "send_date": "Wed, 15 May 2019 11:03:30 -0500",
+            "artist": "Simple Minds",
+            "song": "Love Song",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/6zEf9xxlJpOgTgFgFz0Qos"
+        },
+        {
+            "catalogue_num": 31,
+            "send_date": "Thu, 16 May 2019 06:43:20 -0500",
+            "artist": "The Outcasts",
+            "song": "Loving You Sometimes",
+            "release_date": 1968,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 32,
+            "send_date": "Fri, 17 May 2019 08:33:14 -0500",
+            "artist": "The Rings (UK)",
+            "song": "I Wanna Be Free",
+            "release_date": 1977,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 33,
+            "send_date": "Sat, 18 May 2019 08:33:14 -0500",
+            "artist": "The Olivia Tremor Control",
+            "song": "Hideaway",
+            "release_date": 1999,
+            "spotify_link": "https://open.spotify.com/track/2tBMTRlUg99ifYxZAJWo4n"
+        },
+        {
+            "catalogue_num": 34,
+            "send_date": "Sun, 19 May 2019 16:20:11 +0000 (UTC)",
+            "artist": "Curt Boettcher",
+            "song": "Baby It's Real",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/5nhLoOvVQMGPjStuZYjLpQ"
+        },
+        {
+            "catalogue_num": 35,
+            "send_date": "Mon, 20 May 2019 14:38:13 +0000 (UTC)",
+            "artist": "Elvis Presley",
+            "song": "His Latest Flame (Marie's The Name)",
+            "release_date": 1961,
+            "spotify_link": "https://open.spotify.com/track/4qbLOU1T7xgTH87eUSkvJ1"
+        },
+        {
+            "catalogue_num": 36,
+            "send_date": "Tue, 21 May 2019 15:19:32 +0000 (UTC)",
+            "artist": "Mary Lou Lord",
+            "song": "I Figured You Out You Out (Original Mix feat. Elliott Smith)",
+            "release_date": 1997,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 37,
+            "send_date": "Wed, 22 May 2019 15:24:59 +0000 (UTC)",
+            "artist": "Dwight Twilley Band",
+            "song": "Looking For The Magic",
+            "release_date": 1977,
+            "spotify_link": "https://open.spotify.com/track/3kJXrEVUCdPQ3e4e5k9OHC"
+        },
+        {
+            "catalogue_num": 38,
+            "send_date": "Thu, 23 May 2019 14:25:07 +0000 (UTC)",
+            "artist": "The Toreros",
+            "song": "Come",
+            "release_date": 1966,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 39,
+            "send_date": "Fri, 24 May 2019 14:09:36 +0000 (UTC)",
+            "artist": "Yellow Magic Orchestra",
+            "song": "Behind The Mask",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/6fcvo9Gfgx5V4XfMbWtUOZ"
+        },
+        {
+            "catalogue_num": 40,
+            "send_date": "Sat, 25 May 2019 10:00:36 +0000 (UTC)",
+            "artist": "Cleaners From  Venus",
+            "song": "Time In Vain",
+            "release_date": 1982,
+            "spotify_link": "https://open.spotify.com/album/0pMgdGYL1d7YfLZ6Y2PYLG"
+        },
+        {
+            "catalogue_num": 41,
+            "send_date": "Sun, 26 May 2019 14:41:27 +0000 (UTC)",
+            "artist": "The Trammps",
+            "song": "Hold Back The Night",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/2Jok6fkKmcP7Lp7XLzQ1wj"
+        },
+        {
+            "catalogue_num": 42,
+            "send_date": "Mon, 27 May 2019 15:32:47 +0000 (UTC)",
+            "artist": "The Idle Race",
+            "song": "On With The Show",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/0f2F1OZChaKbGPz6xCvz3F"
+        },
+        {
+            "catalogue_num": 43,
+            "send_date": "Tue, 28 May 2019 06:12:00 -0500",
+            "artist": "Sweet",
+            "song": "Wig Wam Bam",
+            "release_date": 1971,
+            "spotify_link": "https://open.spotify.com/track/0YCaA7bdy0CGQodmKs2BU1"
+        },
+        {
+            "catalogue_num": 44,
+            "send_date": "Wed, 29 May 2019 15:35:13 +0000 (UTC)",
+            "artist": "Nick Heyward",
+            "song": "Kite",
+            "release_date": 1992,
+            "spotify_link": "https://open.spotify.com/track/7m5B2YP5gxn9YlAQ69Sc65"
+        },
+        {
+            "catalogue_num": 45,
+            "send_date": "Thu, 30 May 2019 01:36:23 -0500",
+            "artist": "The Radio Dept.",
+            "song": "Pet Grief",
+            "release_date": 2006,
+            "spotify_link": "https://open.spotify.com/track/4GwWOTy6UBPJrEtwls9GSD"
+        },
+        {
+            "catalogue_num": 46,
+            "send_date": "Fri, 31 May 2019 15:33:31 +0000 (UTC)",
+            "artist": "The Hollies",
+            "song": "Sorry Suzanne",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/5mLqHfJcDSfJo31eWVFyjF"
+        },
+        {
+            "catalogue_num": 47,
+            "send_date": "Sat, 1 Jun 2019 16:16:18 +0000 (UTC)",
+            "artist": "Thin Lizzy",
+            "song": "No One Told Him",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/4yXmG4hrbCkqnDAV6G5jy0"
+        },
+        {
+            "catalogue_num": 48,
+            "send_date": "Sun, 2 Jun 2019 15:28:33 +0000 (UTC)",
+            "artist": "The Toms",
+            "song": "Other Boys Do",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/0sszhd1kbH9xJiewizA7O4"
+        },
+        {
+            "catalogue_num": 49,
+            "send_date": "Mon, 3 Jun 2019 14:17:20 +0000 (UTC)",
+            "artist": "Private Dicks",
+            "song": "Don't Follow My Lead",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/2yYjCeObNMP5Ugk2dvyDMX"
+        },
+        {
+            "catalogue_num": 50,
+            "send_date": "Tue, 4 Jun 2019 14:02:21 +0000 (UTC)",
+            "artist": "Arling & Cameron",
+            "song": "Dirty Robot",
+            "release_date": 2001,
+            "spotify_link": "https://open.spotify.com/track/33QKhbw3hZ07ad70On4zes"
+        },
+        {
+            "catalogue_num": 51,
+            "send_date": "Wed, 5 Jun 2019 12:13:16 +0000 (UTC)",
+            "artist": "The Boomtown Rats",
+            "song": "Never In A Million Years",
+            "release_date": 1982,
+            "spotify_link": "https://open.spotify.com/track/3toOTqKrI0LDaKkBxifhwC"
+        },
+        {
+            "catalogue_num": 52,
+            "send_date": "Thu, 6 Jun 2019 13:38:04 +0000 (UTC)",
+            "artist": "Amen Corner",
+            "song": "(If Paradise Is) Half As Nice",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/5LqgYSG0yPJTsPzkk3nnya"
+        },
+        {
+            "catalogue_num": 53,
+            "send_date": "Fri, 7 Jun 2019 14:06:04 +0000 (UTC)",
+            "artist": "Gorky's Zygotic Mynci",
+            "song": "Spanish Dance Troupe",
+            "release_date": 1999,
+            "spotify_link": "https://open.spotify.com/track/0utjR80b0Q6lKtO6gb2mCf"
+        },
+        {
+            "catalogue_num": 54,
+            "send_date": "Sat, 8 Jun 2019 12:56:07 +0000 (UTC)",
+            "artist": "The Beach Boys",
+            "song": "All I Wanna Do",
+            "release_date": 1970,
+            "spotify_link": "https://open.spotify.com/track/7y9O8sJmuX7DvmyrR7h3PY"
+        },
+        {
+            "catalogue_num": 55,
+            "send_date": "Sun, 9 Jun 2019 13:51:17 +0000 (UTC)",
+            "artist": "Jack Wood",
+            "song": "Born To Wonder",
+            "release_date": 1964,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 56,
+            "send_date": "Mon, 10 Jun 2019 15:18:18 +0000 (UTC)",
+            "artist": "The Pillows",
+            "song": "My Foot",
+            "release_date": 2006,
+            "spotify_link": "https://open.spotify.com/track/3vxcJJLzgTsciHnuA7aBIR"
+        },
+        {
+            "catalogue_num": 57,
+            "send_date": "Tue, 11 Jun 2019 14:32:48 +0000 (UTC)",
+            "artist": "The Adventures",
+            "song": "Send In My Heart",
+            "release_date": 1985,
+            "spotify_link": "https://open.spotify.com/track/36BxkSj96U1izWsPd3XeLW"
+        },
+        {
+            "catalogue_num": 58,
+            "send_date": "Wed, 12 Jun 2019 14:20:13 +0000 (UTC)",
+            "artist": "The Raspberries",
+            "song": "I Reach For The Light",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/2o0VjW7ewUGtKWGNi95P8F"
+        },
+        {
+            "catalogue_num": 59,
+            "send_date": "Thu, 13 Jun 2019 11:52:44 +0000 (UTC)",
+            "artist": "Talking Heads",
+            "song": "A Clean Break (Let's Work)",
+            "release_date": 1977,
+            "spotify_link": "https://open.spotify.com/track/2q6YXRcGHRM25TPrNfhRfH"
+        },
+        {
+            "catalogue_num": 60,
+            "send_date": "Fri, 14 Jun 2019 12:43:53 +0000 (UTC)",
+            "artist": "The Sonics",
+            "song": "Shot Down",
+            "release_date": 1966,
+            "spotify_link": "https://open.spotify.com/track/6ae38qMdEC86XRa2LaOguu"
+        },
+        {
+            "catalogue_num": 61,
+            "send_date": "Sat, 15 Jun 2019 12:49:34 +0000 (UTC)",
+            "artist": "Devo",
+            "song": "Girl U Want",
+            "release_date": 1980,
+            "spotify_link": "https://open.spotify.com/track/0rNXiNb8IN78GL6cx9VsP7"
+        },
+        {
+            "catalogue_num": 62,
+            "send_date": "Sun, 16 Jun 2019 08:59:34 +0000 (UTC)",
+            "artist": "Ocean Colour Scene",
+            "song": "Hundred Mile High City",
+            "release_date": 1997,
+            "spotify_link": "https://open.spotify.com/track/5P2CWpIzIsjU8gxIy5Jtx8"
+        },
+        {
+            "catalogue_num": 63,
+            "send_date": "Mon, 17 Jun 2019 14:02:52 +0000 (UTC)",
+            "artist": "The Go-Betweens",
+            "song": "Was There Anything I Could Do",
+            "release_date": 1988,
+            "spotify_link": "https://open.spotify.com/track/4sDugUVhCYkMesZtxNE6H2"
+        },
+        {
+            "catalogue_num": 64,
+            "send_date": "Tue, 18 Jun 2019 13:53:12 +0000 (UTC)",
+            "artist": "The Swinging Blue Jeans",
+            "song": "Summer Comes Sunday",
+            "release_date": 1964,
+            "spotify_link": "https://open.spotify.com/track/0eTWvGu8OZVrkxv0sZPE04"
+        },
+        {
+            "catalogue_num": 65,
+            "send_date": "Wed, 19 Jun 2019 14:03:50 +0000 (UTC)",
+            "artist": "Shuggie Otis",
+            "song": "Inspiration Information",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/3q8AgabNzK1mPJdI8egIcn"
+        },
+        {
+            "catalogue_num": 66,
+            "send_date": "Thu, 20 Jun 2019 14:15:32 +0000 (UTC)",
+            "artist": "The Damned",
+            "song": "Life Goes On",
+            "release_date": 1980,
+            "spotify_link": "https://open.spotify.com/track/5fHTdGsnnj0minXaTKAdFV"
+        },
+        {
+            "catalogue_num": 67,
+            "send_date": "Fri, 21 Jun 2019 14:35:18 +0000 (UTC)",
+            "artist": "The Kinks",
+            "song": "She's Got Everything",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/3muvPvzoQqwY8wRazwV9K6"
+        },
+        {
+            "catalogue_num": 68,
+            "send_date": "Sat, 22 Jun 2019 12:40:33 +0000 (UTC)",
+            "artist": "Sloan",
+            "song": "G Turns To D",
+            "release_date": 1997,
+            "spotify_link": "https://open.spotify.com/track/33o5nUukDNnfYNpHzsGubi"
+        },
+        {
+            "catalogue_num": 69,
+            "send_date": "Sun, 23 Jun 2019 15:22:05 +0000 (UTC)",
+            "artist": "Klaatu",
+            "song": "For You Girl",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/4XU1RTF195OnPe3G9f5Njn"
+        },
+        {
+            "catalogue_num": 70,
+            "send_date": "Mon, 24 Jun 2019 15:43:26 +0000 (UTC)",
+            "artist": "Jim Noir",
+            "song": "Eanie Meany",
+            "release_date": 2004,
+            "spotify_link": "https://open.spotify.com/track/0gIKdu54owyKUEXK8BEVyZ"
+        },
+        {
+            "catalogue_num": 71,
+            "send_date": "Tue, 25 Jun 2019 14:14:17 +0000 (UTC)",
+            "artist": "The Iveys",
+            "song": "Beautiful And Blue",
+            "release_date": 1969,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 72,
+            "send_date": "Wed, 26 Jun 2019 16:14:15 +0000 (UTC)",
+            "artist": "Fleetwood Mac",
+            "song": "Walk A Thin Line",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/6BmG6l1nLovI9Q2ZlD0oU8"
+        },
+        {
+            "catalogue_num": 73,
+            "send_date": "Thu, 27 Jun 2019 14:21:01 +0000 (UTC)",
+            "artist": "Jellyfish",
+            "song": "Calling Sarah",
+            "release_date": 1990,
+            "spotify_link": "https://open.spotify.com/track/5lLJgDx14XkCKCCKnVa37z"
+        },
+        {
+            "catalogue_num": 74,
+            "send_date": "Fri, 28 Jun 2019 15:06:14 +0000 (UTC)",
+            "artist": "The Delfonics",
+            "song": "Ready Or Not Here I Come (Can't Hide From Love)",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/5RnlUyTKgmd7V6tXdQcKVK"
+        },
+        {
+            "catalogue_num": 75,
+            "send_date": "Sat, 29 Jun 2019 14:53:28 +0000 (UTC)",
+            "artist": "Split Enz",
+            "song": "Hard Act To Follow",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/1TQxeWzuJ7RtQrw4Bgx8Sg"
+        },
+        {
+            "catalogue_num": 76,
+            "send_date": "Sun, 30 Jun 2019 14:42:50 +0000 (UTC)",
+            "artist": "Glen Campbell",
+            "song": "Guess I'm Dumb",
+            "release_date": 1965,
+            "spotify_link": "https://open.spotify.com/track/1TXmgEg4hH8Tl4nyo4OZdV"
+        },
+        {
+            "catalogue_num": 77,
+            "send_date": "Mon, 1 Jul 2019 14:31:24 +0000 (UTC)",
+            "artist": "Adam & The Ants",
+            "song": "Xerox",
+            "release_date": 1979,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 78,
+            "send_date": "Tue, 2 Jul 2019 11:52:08 +0000 (UTC)",
+            "artist": "Dinosaur",
+            "song": "Kiss Me Again (Original Edit)",
+            "release_date": 1978,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 79,
+            "send_date": "Wed, 3 Jul 2019 07:18:08 +0000 (UTC)",
+            "artist": "Cotton Mather",
+            "song": "Homefront Cameo",
+            "release_date": 1997,
+            "spotify_link": "https://open.spotify.com/track/49G77FXnNICfnptWQuoEWJ"
+        },
+        {
+            "catalogue_num": 80,
+            "send_date": "Thu, 4 Jul 2019 14:52:27 +0000 (UTC)",
+            "artist": "Ohio Express",
+            "song": "She's Not Coming Home",
+            "release_date": 1968,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 81,
+            "send_date": "Fri, 5 Jul 2019 11:25:01 +0000 (UTC)",
+            "artist": "The Blades",
+            "song": "Hot For You",
+            "release_date": 1980,
+            "spotify_link": "https://open.spotify.com/track/5yDg5zojQZUuovJTr3qbkw"
+        },
+        {
+            "catalogue_num": 82,
+            "send_date": "Sat, 6 Jul 2019 13:30:39 +0000 (UTC)",
+            "artist": "Mellow",
+            "song": "Another Mellow Winter",
+            "release_date": 1999,
+            "spotify_link": "https://open.spotify.com/track/285NJMCnfS7EtYsaBXyIsP"
+        },
+        {
+            "catalogue_num": 83,
+            "send_date": "Sun, 7 Jul 2019 13:11:47 +0000 (UTC)",
+            "artist": "Buffalo Springfield",
+            "song": "Expecting To Fly",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/3uVmR6oQq0NluVZXkipKHV"
+        },
+        {
+            "catalogue_num": 84,
+            "send_date": "Mon, 8 Jul 2019 14:25:12 +0000 (UTC)",
+            "artist": "Todd Rundgren",
+            "song": "A Dream Goes On Forever",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/0tiBROmRVHxKAtgI8Hg9Sa"
+        },
+        {
+            "catalogue_num": 85,
+            "send_date": "Tue, 9 Jul 2019 14:45:24 +0000 (UTC)",
+            "artist": "Tim Scott",
+            "song": "Swear (Extended Mix)",
+            "release_date": 1983,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 86,
+            "send_date": "Wed, 10 Jul 2019 15:56:04 +0000 (UTC)",
+            "artist": "Leon Haywood",
+            "song": "I Want'a Do Something Freaky To You",
+            "release_date": 1975,
+            "spotify_link": "https://open.spotify.com/track/4ijuSvn7dE8i9o8Ori6QmC"
+        },
+        {
+            "catalogue_num": 87,
+            "send_date": "Thu, 11 Jul 2019 11:16:03 +0000 (UTC)",
+            "artist": "The Aerovons",
+            "song": "World Of You",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/3MIGyi08RzwvZhKZZWqvtt"
+        },
+        {
+            "catalogue_num": 88,
+            "send_date": "Fri, 12 Jul 2019 13:13:31 +0000 (UTC)",
+            "artist": "Eddie Noack",
+            "song": "Psycho",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/3Vtcjs5wVanh6LocIRrpwy"
+        },
+        {
+            "catalogue_num": 89,
+            "send_date": "Sat, 13 Jul 2019 14:29:12 +0000 (UTC)",
+            "artist": "Tubeway Army",
+            "song": "That's Too Bad",
+            "release_date": 1978,
+            "spotify_link": "https://open.spotify.com/track/7kOtA5PyNDJFBbeCps4DDc"
+        },
+        {
+            "catalogue_num": 90,
+            "send_date": "Sun, 14 Jul 2019 16:25:14 +0000 (UTC)",
+            "artist": "Manic Street Preachers",
+            "song": "Ocean Spray",
+            "release_date": 2001,
+            "spotify_link": "https://open.spotify.com/track/2m8EQltnKwD4kX2Y40WI0v"
+        },
+        {
+            "catalogue_num": 91,
+            "send_date": "Mon, 15 Jul 2019 14:52:28 +0000 (UTC)",
+            "artist": "Os Mutantes",
+            "song": "A Minha Menina",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/0lGEWOZvMexZFXckBJxlVO"
+        },
+        {
+            "catalogue_num": 92,
+            "send_date": "Tue, 16 Jul 2019 08:21:28 +0000 (UTC)",
+            "artist": "Echo & The Bunnymen",
+            "song": "Never Stop (Discotheque)",
+            "release_date": 1983,
+            "spotify_link": "https://open.spotify.com/track/6Axyxy9RDr7mZzQgxeUMbk"
+        },
+        {
+            "catalogue_num": 93,
+            "send_date": "Wed, 17 Jul 2019 12:18:10 +0000 (UTC)",
+            "artist": "Ween",
+            "song": "Ocean Man",
+            "release_date": 1997,
+            "spotify_link": "https://open.spotify.com/track/6M14BiCN00nOsba4JaYsHW"
+        },
+        {
+            "catalogue_num": 94,
+            "send_date": "Thu, 18 Jul 2019 11:36:14 +0000 (UTC)",
+            "artist": "Alessi",
+            "song": "Seabird",
+            "release_date": 1976,
+            "spotify_link": "https://open.spotify.com/track/7qw4F9ebIh2z1dSBpJMfdt"
+        },
+        {
+            "catalogue_num": 95,
+            "send_date": "Fri, 19 Jul 2019 15:45:48 +0000 (UTC)",
+            "artist": "The Revelons",
+            "song": "The Way (You Touch My Hand)",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/5QhBOHpkIebUOwGMGp6AMK"
+        },
+        {
+            "catalogue_num": 96,
+            "send_date": "Sat, 20 Jul 2019 14:08:49 +0000 (UTC)",
+            "artist": "The Association",
+            "song": "Everything That Touches You",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/7g0WpDuOX4hxBKCsoitOXn"
+        },
+        {
+            "catalogue_num": 97,
+            "send_date": "Sun, 21 Jul 2019 14:07:02 +0000 (UTC)",
+            "artist": "The Whispers",
+            "song": "And The Beat Goes On",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/7oQ1wkBmYSBEC2x7U08dvn"
+        },
+        {
+            "catalogue_num": 98,
+            "send_date": "Mon, 22 Jul 2019 14:07:02 +0000 (UTC)",
+            "artist": "Nik Kershaw",
+            "song": "Wouldn't It Be Good",
+            "release_date": 1984,
+            "spotify_link": "https://open.spotify.com/track/34yZYzGEslpYGKU3VlGRDn"
+        },
+        {
+            "catalogue_num": 99,
+            "send_date": "Tue, 23 Jul 2019 15:52:38 +0000 (UTC)",
+            "artist": "The Mynah Birds",
+            "song": "It's My Time",
+            "release_date": 1966,
+            "spotify_link": "https://open.spotify.com/track/55TUxy2kLaZgEoqP6ZwpXr"
+        },
+        {
+            "catalogue_num": 100,
+            "send_date": "Wed, 24 Jul 2019 15:22:09 +0000 (UTC)",
+            "artist": "The Cramps",
+            "song": "Dames, Booze, Chains And Boots",
+            "release_date": 1991,
+            "spotify_link": "https://open.spotify.com/track/1VEmbwgiReJiYA6lAqv0yu"
+        }
+    ]
+}
