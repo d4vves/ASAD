@@ -1,14 +1,25 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import Song from './components/Song'
+import { useEffect, useState } from 'react'
+import axios from 'axios'
+import List from './components/List'
+import Nav from './components/Nav'
 import './App.css';
 
 function App() {
-  const [displayList, setDisplayList] = useState([])
   const [fullList, setFullList] = useState([])
+  const [displayList, setDisplayList] = useState([])
+  const [pageNum, setPageNum] = useState(0)
   const [search, setSearch] = useState([])
 
-  const getFullList = () => {
+  const determinePageSlice = () => {
+    let nextPageNum = pageNum + 1
+
+    let nextStartSlice = pageNum * 20
+    let nextEndSlice = nextPageNum * 20
+
+    setDisplayList(fullList.slice(nextStartSlice, nextEndSlice))
+  }
+  
+  const getInitialLists = () => {
     axios.get(`${process.env.REACT_APP_SERVER_URL}`)
     .then(response => {
       setFullList(response.data)
@@ -19,32 +30,46 @@ function App() {
   const handleSearchInput = (e) => {
     const userInput = e.target.value
     setSearch(userInput)
-    
+
     userInput ?
       setDisplayList(() => {
         const filteredList = fullList.filter(asad => 
           asad.artist.toLowerCase().includes(userInput.toLowerCase()) ||
-          asad.song.toLowerCase().includes(userInput.toLowerCase()))
+          asad.song.toLowerCase().includes(userInput.toLowerCase()) ||
+          asad.catalogue_num.toString().includes(userInput) ||
+          asad.release_date.toString().includes(userInput)
+        )
         return filteredList
       })
     :
-      setDisplayList(fullList.slice(0, 20))
+      determinePageSlice()
   }
 
   useEffect(() => {
-    getFullList()
+    getInitialLists()
   }, [])
 
-  let display = displayList.map((song, idx) => {
-    return <Song {...song} key={idx} />
-  })
+  useEffect(() => {
+    determinePageSlice()
+  }, [pageNum])
 
   return (
     <div className="App">
+
       <h1>ASAD</h1>
-      <label htmlFor='search'>Search: </label>
-      <input type='text' onChange={handleSearchInput} value={search} />
-      {display}
+
+      <Nav
+        search={search}
+        handleSearchInput={handleSearchInput}
+        setPageNum={setPageNum}
+        pageNum={pageNum}
+        fullListLength={fullList.length}
+      />
+
+      <List
+          list={displayList}
+        />
+
     </div>
   );
 }

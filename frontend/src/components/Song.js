@@ -3,7 +3,7 @@ import '../App.css';
 const Song = ({ catalogue_num, artist, song, release_date, spotify_link }) => {
 
     let spotifyLink = spotify_link ? 
-        <a href={spotify_link}>Spotify</a> :
+        <a href={spotify_link} target='blank'>Spotify</a> :
         ''
 
     return (

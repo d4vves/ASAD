@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.search-container {
+  display: inline-block;
+  margin: 2vw;
+}
+
 .song-row {
   font-size: .75em;
+}
+
+.page-number {
+  font-size: .80em;
 }
