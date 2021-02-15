@@ -5,21 +5,22 @@ import Nav from './components/Nav'
 import './App.css';
 
 function App() {
-  const [fullList, setFullList] = useState([])
   const [displayList, setDisplayList] = useState([])
+  const [fullList, setFullList] = useState([])
   const [pageNum, setPageNum] = useState(0)
-  const [search, setSearch] = useState([])
+  const [search, setSearch] = useState('')
 
-  const determinePageSlice = () => {
+  const determineDisplayListSlice = () => {
     let nextPageNum = pageNum + 1
 
     let nextStartSlice = pageNum * 20
     let nextEndSlice = nextPageNum * 20
+    if (nextEndSlice > fullList.length) nextEndSlice = fullList.length
 
     setDisplayList(fullList.slice(nextStartSlice, nextEndSlice))
   }
   
-  const getInitialLists = () => {
+  const setInitialLists = () => {
     axios.get(`${process.env.REACT_APP_SERVER_URL}`)
     .then(response => {
       setFullList(response.data)
@@ -42,15 +43,15 @@ function App() {
         return filteredList
       })
     :
-      determinePageSlice()
+      determineDisplayListSlice()
   }
 
   useEffect(() => {
-    getInitialLists()
+    setInitialLists()
   }, [])
 
   useEffect(() => {
-    determinePageSlice()
+    determineDisplayListSlice()
   }, [pageNum])
 
   return (
