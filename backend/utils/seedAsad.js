@@ -90,13 +90,13 @@ async function seedDb(auth) {
   const gmail = google.gmail({version: 'v1', auth});
 
   // nextCatalogueNum and date variables
-  let nextCatalogueNum = 99;
+  let nextCatalogueNum = 127;
 
-  let startDate = new Date('2019, 7, 23');
+  let startDate = new Date('2019, 8, 20');
   let [afterMonth, afterDate, afterYear] = startDate.toLocaleDateString("en-US").split("/");
   let afterSearchDate = `${afterMonth}/${afterDate}/${afterYear}`;
 
-  let targetDate = new Date('2019, 7, 25');
+  let targetDate = new Date('2019, 8, 28');
   let [beforeMonth, beforeDate, beforeYear] = targetDate.toLocaleDateString("en-US").split("/");
   let beforeSearchDate = `${beforeMonth}/${beforeDate}/${beforeYear}`;
   

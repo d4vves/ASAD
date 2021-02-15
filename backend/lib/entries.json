@@ -805,6 +805,278 @@
             "song": "Dames, Booze, Chains And Boots",
             "release_date": 1991,
             "spotify_link": "https://open.spotify.com/track/1VEmbwgiReJiYA6lAqv0yu"
+        },
+        {
+            "catalogue_num": 101,
+            "send_date": "Thu, 25 Jul 2019 16:31:04 +0000 (UTC)",
+            "artist": "The Hudson Brothers",
+            "song": "So You Are A Star",
+            "release_date": 1974,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 102,
+            "send_date": "Fri, 26 Jul 2019 14:19:09 +0000 (UTC)",
+            "artist": "The Rolling Stones",
+            "song": "Dandelion",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/68vs9rfQBpkn1EDgC0nBTJ"
+        },
+        {
+            "catalogue_num": 103,
+            "send_date": "Sat, 27 Jul 2019 14:53:16 +0000 (UTC)",
+            "artist": "Pet Shop Boys",
+            "song": "Love Comes Quickly",
+            "release_date": 1986,
+            "spotify_link": "https://open.spotify.com/track/3g8p7uno48IqoM78RzI8NJ"
+        },
+        {
+            "catalogue_num": 104,
+            "send_date": "Sun, 28 Jul 2019 16:28:13 +0000 (UTC)",
+            "artist": "The Vandalias",
+            "song": "Get To Know You",
+            "release_date": 1993,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 105,
+            "send_date": "Mon, 29 Jul 2019 15:27:03 +0000 (UTC)",
+            "artist": "Slaves",
+            "song": "Cheer Up London",
+            "release_date": 2015,
+            "spotify_link": "https://open.spotify.com/track/6YwYfxEFDUZZ1xX5vlBYmF"
+        },
+        {
+            "catalogue_num": 106,
+            "send_date": "Tue, 30 Jul 2019 14:09:00 +0000 (UTC)",
+            "artist": "Sad Lovers & Giants",
+            "song": "50:50",
+            "release_date": 1984,
+            "spotify_link": "https://open.spotify.com/track/25CMLaHAoc4mEfMwCNYhma"
+        },
+        {
+            "catalogue_num": 107,
+            "send_date": "Wed, 31 Jul 2019 14:33:13 +0000 (UTC)",
+            "artist": "Boney M.",
+            "song": "Daddy Cool",
+            "release_date": 1976,
+            "spotify_link": "https://open.spotify.com/track/3WMbD1OyfKuwWDWMNbPQ4g"
+        },
+        {
+            "catalogue_num": 108,
+            "send_date": "Thu, 1 Aug 2019 15:49:58 +0000 (UTC)",
+            "artist": "Supertramp",
+            "song": "Hide In Your Shell",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/0ldE7rHWykc9OUViCzdviV"
+        },
+        {
+            "catalogue_num": 109,
+            "send_date": "Fri, 2 Aug 2019 14:57:15 +0000 (UTC)",
+            "artist": "The Turtles",
+            "song": "Lady-O",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/6GgIHJV1DDTpYQLUa47Tlc"
+        },
+        {
+            "catalogue_num": 110,
+            "send_date": "Sat, 3 Aug 2019 15:29:08 +0000 (UTC)",
+            "artist": "Cousteau",
+            "song": "Last Good Day Of The Year",
+            "release_date": 1999,
+            "spotify_link": "https://open.spotify.com/track/5SvaVaOTPyHgSKXyJjJeMS"
+        },
+        {
+            "catalogue_num": 111,
+            "send_date": "Sun, 4 Aug 2019 13:15:57 +0000 (UTC)",
+            "artist": "The Flatlanders",
+            "song": "Dallas",
+            "release_date": 1972,
+            "spotify_link": "https://open.spotify.com/track/72ZCJnJ62wQCGc1OExu2E2"
+        },
+        {
+            "catalogue_num": 112,
+            "send_date": "Mon, 5 Aug 2019 16:31:40 +0000 (UTC)",
+            "artist": "The Dukes Of The Stratosphere",
+            "song": "Brainiac's Daughter",
+            "release_date": 1987,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 113,
+            "send_date": "Tue, 6 Aug 2019 15:23:23 +0000 (UTC)",
+            "artist": "Darondo",
+            "song": "Didn't I",
+            "release_date": 1972,
+            "spotify_link": "https://open.spotify.com/track/6Dq2LzijkY9WNPwBGDah4L"
+        },
+        {
+            "catalogue_num": 114,
+            "send_date": "Wed, 7 Aug 2019 15:27:29 +0000 (UTC)",
+            "artist": "The Pur'swa'der...s",
+            "song": "You're Mine",
+            "release_date": 1966,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 115,
+            "send_date": "Thu, 8 Aug 2019 13:29:10 +0000 (UTC)",
+            "artist": "Teenage Head",
+            "song": "Picture My Face",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/0zYGqo3pLiVJUYCcwrn21h"
+        },
+        {
+            "catalogue_num": 116,
+            "send_date": "Fri, 9 Aug 2019 15:16:17 +0000 (UTC)",
+            "artist": "The Clean",
+            "song": "Dunes",
+            "release_date": 1990,
+            "spotify_link": "https://open.spotify.com/track/2NbcF3c08NY3uUyfzETm01"
+        },
+        {
+            "catalogue_num": 117,
+            "send_date": "Sat, 10 Aug 2019 14:23:06 +0000 (UTC)",
+            "artist": "Cosmic Rough Riders",
+            "song": "She's Never Around",
+            "release_date": 2003,
+            "spotify_link": "https://open.spotify.com/track/6dNosAcThvSmcfPouCd7Cw"
+        },
+        {
+            "catalogue_num": 118,
+            "send_date": "Sun, 11 Aug 2019 16:35:23 +0000 (UTC)",
+            "artist": "Nick Nicely",
+            "song": "Hilly Fields",
+            "release_date": 1892,
+            "spotify_link": "https://open.spotify.com/track/0I14kyaTLkGpQVVMpnO5TC"
+        },
+        {
+            "catalogue_num": 119,
+            "send_date": "Mon, 12 Aug 2019 14:46:56 +0000 (UTC)",
+            "artist": "Olivia Newton-John",
+            "song": "Love Song",
+            "release_date": 1971,
+            "spotify_link": "https://open.spotify.com/track/3Pfp9aXUAkXq5JzmHLRMOV"
+        },
+        {
+            "catalogue_num": 120,
+            "send_date": "Tue, 13 Aug 2019 15:44:05 +0000 (UTC)",
+            "artist": "Denny Laine",
+            "song": "Say You Don't Mind",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/1BztttXZvf5aXZGWnE2b0U"
+        },
+        {
+            "catalogue_num": 121,
+            "send_date": "Wed, 14 Aug 2019 14:19:43 +0000 (UTC)",
+            "artist": "The Puppets",
+            "song": "The Way Of Life",
+            "release_date": 1983,
+            "spotify_link": "https://open.spotify.com/track/58Hhl1QdK58yueT34mL6re"
+        },
+        {
+            "catalogue_num": 122,
+            "send_date": "Thu, 15 Aug 2019 15:22:31 +0000 (UTC)",
+            "artist": "Sparks",
+            "song": "Girl From Germany",
+            "release_date": 1973,
+            "spotify_link": "https://open.spotify.com/track/02R9bZXporpbufvOKgf6At"
+        },
+        {
+            "catalogue_num": 123,
+            "send_date": "Fri, 16 Aug 2019 15:58:52 +0000 (UTC)",
+            "artist": "BMX Bandits",
+            "song": "Serious Drugs",
+            "release_date": 1993,
+            "spotify_link": "https://open.spotify.com/track/2scKYMP8FrogwJeYyp6KiN"
+        },
+        {
+            "catalogue_num": 124,
+            "send_date": "Sat, 17 Aug 2019 13:13:21 +0000 (UTC)",
+            "artist": "The International Submarine Band",
+            "song": "Sum Up Broke",
+            "release_date": 1966,
+            "spotify_link": "https://open.spotify.com/track/6i4LMco026t6PxdnNsZ4Ar"
+        },
+        {
+            "catalogue_num": 125,
+            "send_date": "Sun, 18 Aug 2019 14:42:26 +0000 (UTC)",
+            "artist": "John Otway & Wild Willy Barrett",
+            "song": "Really Free",
+            "release_date": 1977,
+            "spotify_link": "https://open.spotify.com/track/7wABdV7s5oH9mu8rT5jSaG"
+        },
+        {
+            "catalogue_num": 126,
+            "send_date": "Mon, 19 Aug 2019 14:42:26 +0000 (UTC)",
+            "artist": "Crash Street Kids",
+            "song": "Into You",
+            "release_date": 1982,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 127,
+            "send_date": "Tue, 20 Aug 2019 13:27:54 +0000 (UTC)",
+            "artist": "The Searchers",
+            "song": "Umbrella Man",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/4pRaeqVEXwXJdfjwKaQr81"
+        },
+        {
+            "catalogue_num": 128,
+            "send_date": "Wed, 21 Aug 2019 14:42:18 +0000 (UTC)",
+            "artist": "Sugargliders",
+            "song": "Letter From A Lifeboat",
+            "release_date": 1992,
+            "spotify_link": "https://open.spotify.com/track/1Nk89mZe8pp6Nhh5fDic5A"
+        },
+        {
+            "catalogue_num": 129,
+            "send_date": "Thu, 22 Aug 2019 14:51:43 +0000 (UTC)",
+            "artist": "Mi-Sex",
+            "song": "Computer Games",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/3agFBPR9VuqTo9fmlgE6hx"
+        },
+        {
+            "catalogue_num": 130,
+            "send_date": "Fri, 23 Aug 2019 12:57:11 +0000 (UTC)",
+            "artist": "Girls At Our Best!",
+            "song": "Going Nowhere Fast",
+            "release_date": 1981,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 131,
+            "send_date": "Sat, 24 Aug 2019 15:17:56 +0000 (UTC)",
+            "artist": "George McCrae",
+            "song": "I Get Lifted",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/2etJWHy2CP4NAwzunGwass"
+        },
+        {
+            "catalogue_num": 132,
+            "send_date": "Sun, 25 Aug 2019 16:20:07 +0000 (UTC)",
+            "artist": "Honeybus",
+            "song": "She Sold Blackpool Rock",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/1zrhT2wPYEu3zJVvaHHeCZ"
+        },
+        {
+            "catalogue_num": 133,
+            "send_date": "Mon, 26 Aug 2019 14:24:21 +0000 (UTC)",
+            "artist": "The Notwist",
+            "song": "Pilot",
+            "release_date": 2003,
+            "spotify_link": "https://open.spotify.com/track/1ofW5L1U7TyEUh1uugXwSu"
+        },
+        {
+            "catalogue_num": 134,
+            "send_date": "Tue, 27 Aug 2019 14:53:16 +0000 (UTC)",
+            "artist": "Rockin' Horse",
+            "song": "Julian The Hooligan",
+            "release_date": 1971,
+            "spotify_link": ""
         }
     ]
 }

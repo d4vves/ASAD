@@ -1,3 +1,5 @@
+import '../App.css';
+
 const Song = ({ catalogue_num, artist, song, release_date, spotify_link }) => {
 
     let spotifyLink = spotify_link ? 
@@ -6,7 +8,7 @@ const Song = ({ catalogue_num, artist, song, release_date, spotify_link }) => {
 
     return (
         <div>
-            <p>
+            <p className='song-row'>
                 {catalogue_num} {artist} - {song} ({release_date}) {spotifyLink}
             </p>
         </div>
