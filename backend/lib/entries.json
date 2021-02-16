@@ -1077,6 +1077,134 @@
             "song": "Julian The Hooligan",
             "release_date": 1971,
             "spotify_link": ""
+        },
+        {
+            "catalogue_num": 135,
+            "send_date": "Wed, 28 Aug 2019 14:47:07 +0000 (UTC)",
+            "artist": "Bob Fryfogle",
+            "song": "Six Feet Under",
+            "release_date": 1962,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 136,
+            "send_date": "Thu, 29 Aug 2019 14:32:54 +0000 (UTC)",
+            "artist": "The Chemistry Set",
+            "song": "The Candle Burns",
+            "release_date": 1989,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 137,
+            "send_date": "Fri, 30 Aug 2019 13:31:25 +0000 (UTC)",
+            "artist": "Gem",
+            "song": "Your Heroes Hate You",
+            "release_date": 1995,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 138,
+            "send_date": "Sat, 31 Aug 2019 14:14:17 +0000 (UTC)",
+            "artist": "Booby Trap",
+            "song": "Kelly, Grace & Sally",
+            "release_date": 1974,
+            "spotify_link": "https://open.spotify.com/track/0qTr9EtYdLLNaa1OQjZ8B5"
+        },
+        {
+            "catalogue_num": 139,
+            "send_date": "Sun, 1 Sep 2019 15:04:40 +0000 (UTC)",
+            "artist": "The Glands",
+            "song": "When I Laugh",
+            "release_date": 2000,
+            "spotify_link": "https://open.spotify.com/track/5KQVWXLXbPmZOS531qG2Rm"
+        },
+        {
+            "catalogue_num": 140,
+            "send_date": "Mon, 2 Sep 2019 14:34:20 +0000 (UTC)",
+            "artist": "The Left Banke",
+            "song": "Dark Is The Bark",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/3H33Syvm2xch78nC191wIA"
+        },
+        {
+            "catalogue_num": 141,
+            "send_date": "Tue, 3 Sep 2019 15:15:24 +0000 (UTC)",
+            "artist": "Liquid Liquid",
+            "song": "Bellhead",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/20ffITdN0jXLbqUGMxA7iG"
+        },
+        {
+            "catalogue_num": 142,
+            "send_date": "Wed, 4 Sep 2019 13:36:49 +0000 (UTC)",
+            "artist": "Sun Ra & Arkestra",
+            "song": "Daddy's Gonna Tell You No Lie",
+            "release_date": 1955,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 143,
+            "send_date": "Thu, 5 Sep 2019 14:55:32 +0000 (UTC)",
+            "artist": "The Clash",
+            "song": "Gates Of The West",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/3I3XzNNcTqVRlx1HbleK3w"
+        },
+        {
+            "catalogue_num": 144,
+            "send_date": "Fri, 6 Sep 2019 13:16:30 +0000 (UTC)",
+            "artist": "Ron Gallo",
+            "song": "Put The Kids To Bed",
+            "release_date": 2017,
+            "spotify_link": "https://open.spotify.com/track/4ig4c7Ap0wM5ZWaNcOr7w1"
+        },
+        {
+            "catalogue_num": 145,
+            "send_date": "Sat, 7 Sep 2019 14:40:48 +0000 (UTC)",
+            "artist": "The Pink Floyd",
+            "song": "Paintbox",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/5ckyvPaJPqcNLnKbZ42HN5"
+        },
+        {
+            "catalogue_num": 146,
+            "send_date": "Sun, 8 Sep 2019 14:39:23 +0000 (UTC)",
+            "artist": "Nervus Rex",
+            "song": "There She Goes",
+            "release_date": 1980,
+            "spotify_link": "https://open.spotify.com/track/4HpAysFmLtLQjztpLuh7wV"
+        },
+        {
+            "catalogue_num": 147,
+            "send_date": "Mon, 9 Sep 2019 14:03:41 +0000 (UTC)",
+            "artist": "The Super Friendz",
+            "song": "10 Lbs",
+            "release_date": 1995,
+            "spotify_link": "https://open.spotify.com/track/6c7z8t8NqQ8icQm6IUG1dN"
+        },
+        {
+            "catalogue_num": 148,
+            "send_date": "Tue, 10 Sep 2019 14:46:30 +0000 (UTC)",
+            "artist": "Crabby Appleton",
+            "song": "To All My Friends",
+            "release_date": 1970,
+            "spotify_link": "https://open.spotify.com/track/3IJXKJerRMBrXdSgSNxfgc"
+        },
+        {
+            "catalogue_num": 149,
+            "send_date": "Wed, 11 Sep 2019 13:55:23 +0000 (UTC)",
+            "artist": "The Lazy Eggs",
+            "song": "I'm Gonna Love You",
+            "release_date": 1965,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 150,
+            "send_date": "Thu, 12 Sep 2019 15:22:02 +0000 (UTC)",
+            "artist": "Kitty",
+            "song": "Glad To Know You",
+            "release_date": 1983,
+            "spotify_link": "https://open.spotify.com/track/3MPLHN9as2yVhhkAc8ssW6"
         }
     ]
 }
