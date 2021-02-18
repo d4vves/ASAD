@@ -1205,6 +1205,214 @@
             "song": "Glad To Know You",
             "release_date": 1983,
             "spotify_link": "https://open.spotify.com/track/3MPLHN9as2yVhhkAc8ssW6"
+        },
+        {
+            "catalogue_num": 151,
+            "send_date": "Fri, 13 Sep 2019 07:32:38 -0500",
+            "artist": "The Monks (UK)",
+            "song": "Drugs In My Pocket",
+            "release_date": 1979,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 152,
+            "send_date": "Sat, 14 Sep 2019 07:49:55 -0500",
+            "artist": "The Sadies",
+            "song": "Northumberland West",
+            "release_date": 2004,
+            "spotify_link": "https://open.spotify.com/track/2p7uNOOIQCLupOFBqTlILa"
+        },
+        {
+            "catalogue_num": 153,
+            "send_date": "Sun, 15 Sep 2019 08:39:50 -0500",
+            "artist": "The Thyme",
+            "song": "Love To Love",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/7Ltkx2EHNsygv7b59nJV0w"
+        },
+        {
+            "catalogue_num": 154,
+            "send_date": "Mon, 16 Sep 2019 09:23:55 -0500",
+            "artist": "Neil Young",
+            "song": "Computer Age",
+            "release_date": 1982,
+            "spotify_link": "https://open.spotify.com/track/60sFWx5iElbfma36qpQdBl"
+        },
+        {
+            "catalogue_num": 155,
+            "send_date": "Tue, 17 Sep 2019 07:25:26 -0500",
+            "artist": "The Inbreds",
+            "song": "Yelverton Hill",
+            "release_date": 1997,
+            "spotify_link": "https://open.spotify.com/track/47A3XKLrrc44p1YstLb3Uk"
+        },
+        {
+            "catalogue_num": 156,
+            "send_date": "Wed, 18 Sep 2019 08:15:29 -0500",
+            "artist": "The Stepkids",
+            "song": "Santos And Ken",
+            "release_date": 2011,
+            "spotify_link": "https://open.spotify.com/track/2RNruhGkXxBcsqgDqZpKJf"
+        },
+        {
+            "catalogue_num": 157,
+            "send_date": "Thu, 19 Sep 2019 08:50:00 -0500",
+            "artist": "Brenton Wood",
+            "song": "Baby You Got It",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/7hphy8rtxpYshs3UzDZTzN"
+        },
+        {
+            "catalogue_num": 158,
+            "send_date": "Fri, 20 Sep 2019 06:28:26 -0500",
+            "artist": "America",
+            "song": "I Need You",
+            "release_date": 1971,
+            "spotify_link": "https://open.spotify.com/track/4Anh5Ti55P6SXG3H94QLqV"
+        },
+        {
+            "catalogue_num": 159,
+            "send_date": "Sat, 21 Sep 2019 11:46:58 -0500",
+            "artist": "New York Public Library",
+            "song": "Got To Get Away",
+            "release_date": 1968,
+            "spotify_link": "https://open.spotify.com/track/2dppS7ceqM7cQehSsYQnFz"
+        },
+        {
+            "catalogue_num": 160,
+            "send_date": "Sun, 22 Sep 2019 05:34:46 -0500",
+            "artist": "Marshall Crenshaw",
+            "song": "Something's Gonna Happen",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/5UmQpRp0qcg4RomSPxZMKx"
+        },
+        {
+            "catalogue_num": 161,
+            "send_date": "Mon, 23 Sep 2019 04:31:20 -0500",
+            "artist": "The Monochrome Set",
+            "song": "He's Frank",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/2L6SNE6U2FOunPBDx9e9wI"
+        },
+        {
+            "catalogue_num": 162,
+            "send_date": "Tue, 24 Sep 2019 04:35:08 -0500",
+            "artist": "Dave Dee, Dozy, Beaky, Mick & Tich",
+            "song": "You Make It Move",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/0EgVlYZd0oUU6HSkzGA3og"
+        },
+        {
+            "catalogue_num": 163,
+            "send_date": "Wed, 25 Sep 2019 09:37:00 -0500",
+            "artist": "Old 97's",
+            "song": "Designs On You",
+            "release_date": 2001,
+            "spotify_link": "https://open.spotify.com/track/5FknF9AksXtRMukzcF4gR2"
+        },
+        {
+            "catalogue_num": 164,
+            "send_date": "Thu, 26 Sep 2019 11:26:45 -0500",
+            "artist": "The Sea Urchins",
+            "song": "Pristine Christine",
+            "release_date": 1987,
+            "spotify_link": "https://open.spotify.com/track/6cUoPRXxsG5Wtzj7Cv83me"
+        },
+        {
+            "catalogue_num": 165,
+            "send_date": "Fri, 27 Sep 2019 09:56:22 -0500",
+            "artist": "The Soft Boys",
+            "song": "(I Want To Be An) Anglepoise Lamp",
+            "release_date": 1978,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 166,
+            "send_date": "Sat, 28 Sep 2019 02:17:17 -0500",
+            "artist": "Moby Grape",
+            "song": "8:05",
+            "release_date": 1967,
+            "spotify_link": "https://open.spotify.com/track/58divL3uaZBaxs73jVHisg"
+        },
+        {
+            "catalogue_num": 167,
+            "send_date": "Sun, 29 Sep 2019 08:23:48 -0500",
+            "artist": "Sheer Mag",
+            "song": "Nobody's Baby",
+            "release_date": 2014,
+            "spotify_link": "https://open.spotify.com/track/2MI4dvKfJjFJgCjPQDTRft"
+        },
+        {
+            "catalogue_num": 168,
+            "send_date": "Mon, 30 Sep 2019 15:24:32 +0000 (UTC)",
+            "artist": "The Scabs",
+            "song": "So Called Friends",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/2pfoMHHSbXZAO6eppvM978"
+        },
+        {
+            "catalogue_num": 169,
+            "send_date": "Tue, 1 Oct 2019 15:24:32 +0000 (UTC)",
+            "artist": "Jay Reatard",
+            "song": "You're Gonna Lose",
+            "release_date": 2009,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 170,
+            "send_date": "Wed, 2 Oct 2019 17:10:01 +0000 (UTC)",
+            "artist": "James Gadson",
+            "song": "Good Vibrations",
+            "release_date": 1972,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 171,
+            "send_date": "Thu, 3 Oct 2019 15:57:17 +0000 (UTC)",
+            "artist": "Actress",
+            "song": "It's What You Give",
+            "release_date": 1969,
+            "spotify_link": "https://open.spotify.com/track/1da4NamhmMFH4zrmCgwc2L"
+        },
+        {
+            "catalogue_num": 172,
+            "send_date": "Fri, 4 Oct 2019 09:02:48 +0000 (UTC)",
+            "artist": "The Sinceros",
+            "song": "Take Me To Your Leader",
+            "release_date": 1979,
+            "spotify_link": "https://open.spotify.com/track/1LglWgeLuJQrhlK9J9m1L5"
+        },
+        {
+            "catalogue_num": 173,
+            "send_date": "Sat, 5 Oct 2019 16:43:07 +0000 (UTC)",
+            "artist": "Supercar",
+            "song": "Lucky",
+            "release_date": 1998,
+            "spotify_link": "https://open.spotify.com/track/0KhvS8AYamoxfbIk8pLVKv"
+        },
+        {
+            "catalogue_num": 174,
+            "send_date": "Sun, 6 Oct 2019 15:53:16 +0000 (UTC)",
+            "artist": "Jonathan Richman",
+            "song": "New Teller",
+            "release_date": 1975,
+            "spotify_link": "https://open.spotify.com/track/42GKwFF9t2B5JuCvu7vPRW"
+        },
+        {
+            "catalogue_num": 175,
+            "send_date": "Mon, 7 Oct 2019 07:00:26 -0500",
+            "artist": "Myron & Lee",
+            "song": "If I Gave You My Love",
+            "release_date": 2013,
+            "spotify_link": ""
+        },
+        {
+            "catalogue_num": 176,
+            "send_date": "Tue, 8 Oct 2019 09:04:25 -0500",
+            "artist": "Polyrock",
+            "song": "In Full Circle",
+            "release_date": 1981,
+            "spotify_link": "https://open.spotify.com/track/7bXUKlAHF7Z1LM1rFwq8Fl"
         }
     ]
 }
