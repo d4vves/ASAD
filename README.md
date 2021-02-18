@@ -9,13 +9,14 @@ Forget no more, I said.
 
 ### `seedAsad.js`
 *yo dawg, I heard you like seeders, so we wrote a function to seed your seeder*
-- `seedAsad.js` was written to handle the set up of the database.
-- 1. Use the Gmail API to fetch a list of ASAD labeled emails from my inbox during a specifically determined time-frame.
-- 2. Iterate over said list and hit the Gmail API again to get the email content from the first email in the thread.
-- 3. Find the corresponding email for the next ASAD in line, set by their catalogue number and send date.
-- 4. Parse the catalogue number, send date, artist name, song title and release date from the email subject line and date headers and content.
-- 5. Use that information to hit the Spotify API to see if the song exists on Spotify or not. 
-- 6. Write the results to `entries.json`
+#### `seedAsad.js` was written to handle the set up of the database.
+1. Use the Gmail API to fetch a list of ASAD labeled emails from my inbox during a specifically determined time-frame.
+1. Iterate over said list and hit the Gmail API again to get the email content from the first email in the thread.
+1. Find the corresponding email for the next ASAD in line, set by their catalogue number and send date.
+1. Parse the catalogue number, send date, artist name, song title and release date from the email subject line and date headers and content.
+1. Use that information to hit the Spotify API to see if the song exists on Spotify or not. 
+1. Write the results to `entries.json`
+1. Increment the date and catalogue num and search for the next entry.
 
 <br>
 
