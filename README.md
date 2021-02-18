@@ -5,6 +5,7 @@ Each year we create our 'Best of 20XX' lists and needed a place to view ASAD in 
 
 Forget no more, I said.
 
+<br>
 
 ### `seedAsad.js`
 *yo dawg, I heard you like seeders, so we wrote a function to seed your seeder*
@@ -26,6 +27,8 @@ Forget no more, I said.
 
 Finally, in our seeder file we map over `entries.json` to create our `bulkInsert` array. Now that we've got all 650+ songs ready to get seeded into our database, whats next? 
 
+<br>
+
 
 ### `postAsad.js`
 *this place... seems familiar*
@@ -37,8 +40,10 @@ Finally, in our seeder file we map over `entries.json` to create our `bulkInsert
 - 5. Use that information to hit the Spotify API to see if the song exists on Spotify or not. 
 - 6. POST the results to our database.
 
+<br>
+
 ### Next Steps
 1. Continue writing out a front-end that has ample search, sort and pagination functionality.
 2. Alter our `postAsad.js` function to also automatically add the song (if it exists on Spotify) to our main Spotify playlist.
 
-Thus creating one place to view the entirety of our ASAD collection, Spotify be damned.
+*Thus creating one place to view the entirety of our ASAD collection, Spotify be damned!*
