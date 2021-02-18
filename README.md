@@ -21,7 +21,7 @@ Forget no more, I said.
 
 > *Here's a mess of console logs to see it in action.*
 >
-> ![postAsad.js screenshot](./backend/public/screen01.png)
+> ![postAsad.js screenshot](./backend/public/seedAsad_screen.png)
 
 <br>
 
