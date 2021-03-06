@@ -1,12 +1,15 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import List from './components/List'
+import lodash from 'lodash'
+import SortButton from './components/SortButton'
 import Nav from './components/Nav'
 import './App.css';
 
 function App() {
   const [displayList, setDisplayList] = useState([])
   const [fullList, setFullList] = useState([])
+  const [displaySort, setdisplaySort] = useState({ category: false, sort: false })
   const [pageNum, setPageNum] = useState(0)
   const [search, setSearch] = useState('')
 
@@ -46,6 +49,20 @@ function App() {
       determineDisplayListSlice()
   }
 
+  const toggleSort = (category) => {
+    if (category === displaySort.category) {
+      setdisplaySort({
+        category: category,
+        sort: !displaySort.sort || displaySort.sort === 'desc' ? 'asc' : 'desc'
+      })
+    } else {
+      setdisplaySort({
+        category: category,
+        sort: 'asc'
+      })
+    }
+  }
+
   useEffect(() => {
     setInitialLists()
   }, [])
@@ -53,6 +70,18 @@ function App() {
   useEffect(() => {
     determineDisplayListSlice()
   }, [pageNum])
+
+  useEffect(() => {
+    if (displaySort.sort) {
+      let orderedList = lodash.orderBy(fullList, [displaySort.category], [displaySort.sort])
+      setDisplayList(orderedList)
+    }
+  }, [displaySort])
+
+  let sortButtonList = fullList.length && Object.keys(fullList[0]).slice(1, 7)
+  let sortButtonMap = sortButtonList && sortButtonList.map((category, i) => {
+    return <SortButton key={i} category={category} toggleSort={toggleSort}  />
+  })
 
   return (
     <div className="App">
@@ -65,6 +94,7 @@ function App() {
         setPageNum={setPageNum}
         pageNum={pageNum}
         fullListLength={fullList.length}
+        sortButtonMap={sortButtonMap}
       />
 
       <List

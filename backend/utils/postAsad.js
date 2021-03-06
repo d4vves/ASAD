@@ -25,12 +25,9 @@ const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 // time.
 const TOKEN_PATH = 'backend/lib/token.json';
 
-// Load client secrets from a local file.
-fs.readFile('backend/credentials.json', (err, content) => {
-  if (err) return console.log('Error loading client secret file:', err);
-  // Authorize a client with credentials, then call the Gmail API.
-  authorize(JSON.parse(content), postAsad);
-});
+// Load client secret. 
+// Authorize a client with credentials, then call the Gmail API.
+authorize(JSON.parse(process.env.CREDENTIALS), postAsad);
 
 /**
  * Create an OAuth2 client with the given credentials, and then execute the

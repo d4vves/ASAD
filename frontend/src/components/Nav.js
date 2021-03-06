@@ -1,4 +1,4 @@
-const Nav = ({ handleSearchInput, search, setPageNum, pageNum, fullListLength }) => {
+const Nav = ({ handleSearchInput, search, setPageNum, pageNum, fullListLength, sortButtonMap }) => {
 
     const lastPageNum = Math.ceil(fullListLength / 20)
 
@@ -33,6 +33,10 @@ const Nav = ({ handleSearchInput, search, setPageNum, pageNum, fullListLength })
                 <em className="page-number-display">
                     {!search ? `${pageNum + 1} / ${lastPageNum}` : ''}
                 </em>
+            </div>
+
+            <div>
+                {sortButtonMap}
             </div>
             
         </div>

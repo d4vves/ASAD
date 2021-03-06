@@ -90,13 +90,13 @@ async function seedDb(auth) {
   const gmail = google.gmail({version: 'v1', auth});
 
   // nextCatalogueNum and date variables
-  let nextCatalogueNum = 170;
+  let nextCatalogueNum = 309;
 
-  let startDate = new Date('2019, 10, 2');
+  let startDate = new Date('2020, 2, 19');
   let [afterMonth, afterDate, afterYear] = startDate.toLocaleDateString("en-US").split("/");
   let afterSearchDate = `${afterMonth}/${afterDate}/${afterYear}`;
 
-  let targetDate = new Date('2019, 10, 9');
+  let targetDate = new Date('2020, 3, 1');
   let [beforeMonth, beforeDate, beforeYear] = targetDate.toLocaleDateString("en-US").split("/");
   let beforeSearchDate = `${beforeMonth}/${beforeDate}/${beforeYear}`;
   
@@ -136,10 +136,16 @@ async function seedDb(auth) {
         let headers = originEmail.data.payload.headers;
 
         // grab the catalogue number
-        let subjectHeader = headers.filter(header => header.name === 'Subject');
-        let catalogueNum = parseInt(subjectHeader[0].value.split(' ')[1]);
+        let subjectHeaderArr = headers.filter(header => header.name === 'Subject');
+        let subjectHeader = subjectHeaderArr[0].value
+        let catalogueNumRegex = /\d+/;
+        let catalogueNumMatch = subjectHeader.match(catalogueNumRegex);
+        let catalogueNum = parseInt(catalogueNumMatch);
 
         if (catalogueNum === nextCatalogueNum) {
+          console.log('CATALOGUE NUM:');
+          console.log(catalogueNum);
+          
           // get email body and replace ascii characters
           let emailBody = originEmail.data.snippet;
           let emailContent = decodeString(emailBody);
@@ -151,20 +157,21 @@ async function seedDb(auth) {
           let sendDate = sendDateHeader[0].value;
 
           // grab artist name from email content
-          let artistNameArr = emailContent.split(' - ');
-          let artistName = artistNameArr[0];
+          let artistNameMatch = emailContent.split(' - ');
+          let artistName = artistNameMatch[0];
           console.log('ARTIST: ', artistName);
 
           // grab song title from email content
           const songTitleRegex = /[^-]+\(\d{4}\)/;
-          let songTitleArr = emailContent.match(songTitleRegex)[0];
-          let songTitle = songTitleArr.slice(1, -6).trim();
+          let songTitleMatch = emailContent.match(songTitleRegex);
+          let songTitle = songTitleMatch[0].slice(1, -6).trim();
           console.log('SONG: ', songTitle);
 
           // grab release date from email content
           const releaseDateRegex = /\(\d{4}\)/;
-          let releaseDateArr = emailContent.match(releaseDateRegex)[0];
-          let releaseDate = parseInt(releaseDateArr.slice(1, 5))
+          let releaseDateMatch = emailContent.match(releaseDateRegex);
+          let releaseDateString = releaseDateMatch[0].slice(1, 5);
+          let releaseDate = parseInt(releaseDateString);
           console.log('RELEASE DATE: ', releaseDate);
 
           // form URL for Spotify search
