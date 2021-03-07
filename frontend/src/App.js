@@ -9,51 +9,36 @@ import './App.css';
 function App() {
   const [displayList, setDisplayList] = useState([])
   const [fullList, setFullList] = useState([])
-  const [displaySort, setdisplaySort] = useState({ category: false, sort: false })
-  const [pageNum, setPageNum] = useState(0)
+  const [displaySort, setdisplaySort] = useState({ category: null, sort: null })
   const [search, setSearch] = useState('')
-
-  const determineDisplayListSlice = () => {
-    let nextPageNum = pageNum + 1
-
-    let nextStartSlice = pageNum * 20
-    let nextEndSlice = nextPageNum * 20
-    if (nextEndSlice > fullList.length) nextEndSlice = fullList.length
-
-    setDisplayList(fullList.slice(nextStartSlice, nextEndSlice))
-  }
   
-  const setInitialLists = () => {
+  const setInitialList = () => {
     axios.get(`${process.env.REACT_APP_SERVER_URL}`)
     .then(response => {
       setFullList(response.data)
-      setDisplayList(response.data.slice(0, 20))
+      setDisplayList(response.data)
     })
   }
 
   const handleSearchInput = (e) => {
     const userInput = e.target.value
     setSearch(userInput)
-
-    userInput ?
-      setDisplayList(() => {
-        const filteredList = fullList.filter(asad => 
-          asad.artist.toLowerCase().includes(userInput.toLowerCase()) ||
-          asad.song.toLowerCase().includes(userInput.toLowerCase()) ||
-          asad.catalogue_num.toString().includes(userInput) ||
-          asad.release_date.toString().includes(userInput)
-        )
-        return filteredList
-      })
-    :
-      determineDisplayListSlice()
+    setDisplayList(() => {
+      const filteredList = fullList.filter(asad => 
+        asad.artist.toLowerCase().includes(userInput.toLowerCase()) ||
+        asad.song.toLowerCase().includes(userInput.toLowerCase()) ||
+        asad.catalogue_num.toString().includes(userInput) ||
+        asad.release_date.toString().includes(userInput)
+      )
+      return filteredList
+    })
   }
 
   const toggleSort = (category) => {
     if (category === displaySort.category) {
       setdisplaySort({
         category: category,
-        sort: !displaySort.sort || displaySort.sort === 'desc' ? 'asc' : 'desc'
+        sort: displaySort.sort === 'asc' ? 'desc' : 'asc'
       })
     } else {
       setdisplaySort({
@@ -64,19 +49,15 @@ function App() {
   }
 
   useEffect(() => {
-    setInitialLists()
+    setInitialList()
   }, [])
-
-  useEffect(() => {
-    determineDisplayListSlice()
-  }, [pageNum])
 
   useEffect(() => {
     if (displaySort.sort) {
       let orderedList = lodash.orderBy(fullList, [displaySort.category], [displaySort.sort])
       setDisplayList(orderedList)
     }
-  }, [displaySort])
+  }, [displaySort, fullList])
 
   let sortButtonList = fullList.length && Object.keys(fullList[0]).slice(1, 7)
   let sortButtonMap = sortButtonList && sortButtonList.map((category, i) => {
@@ -91,9 +72,6 @@ function App() {
       <Nav
         search={search}
         handleSearchInput={handleSearchInput}
-        setPageNum={setPageNum}
-        pageNum={pageNum}
-        fullListLength={fullList.length}
         sortButtonMap={sortButtonMap}
       />
 
